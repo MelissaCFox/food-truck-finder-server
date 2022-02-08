@@ -1,0 +1,602 @@
+[
+    {
+        "model": "foodtruckfinderapi.truckfoodtype",
+        "pk": 1,
+        "fields": {
+            "truck": 1,
+            "food_type": 5
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckfoodtype",
+        "pk": 2,
+        "fields": {
+            "truck": 2,
+            "food_type": 2
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckfoodtype",
+        "pk": 3,
+        "fields": {
+            "truck": 3,
+            "food_type": 3
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckfoodtype",
+        "pk": 4,
+        "fields": {
+            "truck": 4,
+            "food_type": 1
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckfoodtype",
+        "pk": 5,
+        "fields": {
+            "truck": 5,
+            "food_type": 4
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckfoodtype",
+        "pk": 6,
+        "fields": {
+            "truck": 6,
+            "food_type": 4
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckfoodtype",
+        "pk": 8,
+        "fields": {
+            "truck": 8,
+            "food_type": 5
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckfoodtype",
+        "pk": 11,
+        "fields": {
+            "truck": 11,
+            "food_type": 3
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckfoodtype",
+        "pk": 12,
+        "fields": {
+            "truck": 12,
+            "food_type": 3
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckfoodtype",
+        "pk": 16,
+        "fields": {
+            "truck": 14,
+            "food_type": 8
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckfoodtype",
+        "pk": 17,
+        "fields": {
+            "truck": 15,
+            "food_type": 6
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckfoodtype",
+        "pk": 18,
+        "fields": {
+            "truck": 16,
+            "food_type": 9
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckfoodtype",
+        "pk": 19,
+        "fields": {
+            "truck": 17,
+            "food_type": 5
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckfoodtype",
+        "pk": 20,
+        "fields": {
+            "truck": 17,
+            "food_type": 10
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckfoodtype",
+        "pk": 21,
+        "fields": {
+            "truck": 17,
+            "food_type": 11
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckfoodtype",
+        "pk": 22,
+        "fields": {
+            "truck": 18,
+            "food_type": 4
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckfoodtype",
+        "pk": 23,
+        "fields": {
+            "truck": 18,
+            "food_type": 2
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckfoodtype",
+        "pk": 24,
+        "fields": {
+            "truck": 19,
+            "food_type": 3
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckfoodtype",
+        "pk": 25,
+        "fields": {
+            "truck": 19,
+            "food_type": 12
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckfoodtype",
+        "pk": 26,
+        "fields": {
+            "truck": 20,
+            "food_type": 5
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckfoodtype",
+        "pk": 27,
+        "fields": {
+            "truck": 21,
+            "food_type": 10
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckfoodtype",
+        "pk": 28,
+        "fields": {
+            "truck": 21,
+            "food_type": 5
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckfoodtype",
+        "pk": 29,
+        "fields": {
+            "truck": 22,
+            "food_type": 10
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckfoodtype",
+        "pk": 30,
+        "fields": {
+            "truck": 22,
+            "food_type": 13
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckfoodtype",
+        "pk": 31,
+        "fields": {
+            "truck": 23,
+            "food_type": 12
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckfoodtype",
+        "pk": 32,
+        "fields": {
+            "truck": 24,
+            "food_type": 13
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckfoodtype",
+        "pk": 33,
+        "fields": {
+            "truck": 24,
+            "food_type": 5
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckfoodtype",
+        "pk": 34,
+        "fields": {
+            "truck": 25,
+            "food_type": 11
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckfoodtype",
+        "pk": 35,
+        "fields": {
+            "truck": 25,
+            "food_type": 14
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckfoodtype",
+        "pk": 36,
+        "fields": {
+            "truck": 26,
+            "food_type": 5
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckfoodtype",
+        "pk": 37,
+        "fields": {
+            "truck": 26,
+            "food_type": 1
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckfoodtype",
+        "pk": 38,
+        "fields": {
+            "truck": 27,
+            "food_type": 5
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckfoodtype",
+        "pk": 39,
+        "fields": {
+            "truck": 27,
+            "food_type": 10
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckfoodtype",
+        "pk": 40,
+        "fields": {
+            "truck": 28,
+            "food_type": 3
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckfoodtype",
+        "pk": 41,
+        "fields": {
+            "truck": 29,
+            "food_type": 13
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckfoodtype",
+        "pk": 42,
+        "fields": {
+            "truck": 29,
+            "food_type": 14
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckfoodtype",
+        "pk": 43,
+        "fields": {
+            "truck": 29,
+            "food_type": 11
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckfoodtype",
+        "pk": 44,
+        "fields": {
+            "truck": 30,
+            "food_type": 13
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckfoodtype",
+        "pk": 45,
+        "fields": {
+            "truck": 31,
+            "food_type": 5
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckfoodtype",
+        "pk": 46,
+        "fields": {
+            "truck": 31,
+            "food_type": 9
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckfoodtype",
+        "pk": 47,
+        "fields": {
+            "truck": 31,
+            "food_type": 1
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckfoodtype",
+        "pk": 48,
+        "fields": {
+            "truck": 32,
+            "food_type": 14
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckfoodtype",
+        "pk": 49,
+        "fields": {
+            "truck": 32,
+            "food_type": 15
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckfoodtype",
+        "pk": 50,
+        "fields": {
+            "truck": 32,
+            "food_type": 11
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckfoodtype",
+        "pk": 51,
+        "fields": {
+            "truck": 33,
+            "food_type": 5
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckfoodtype",
+        "pk": 52,
+        "fields": {
+            "truck": 34,
+            "food_type": 5
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckfoodtype",
+        "pk": 53,
+        "fields": {
+            "truck": 34,
+            "food_type": 16
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckfoodtype",
+        "pk": 54,
+        "fields": {
+            "truck": 35,
+            "food_type": 4
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckfoodtype",
+        "pk": 55,
+        "fields": {
+            "truck": 36,
+            "food_type": 5
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckfoodtype",
+        "pk": 56,
+        "fields": {
+            "truck": 36,
+            "food_type": 14
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckfoodtype",
+        "pk": 57,
+        "fields": {
+            "truck": 36,
+            "food_type": 3
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckfoodtype",
+        "pk": 58,
+        "fields": {
+            "truck": 36,
+            "food_type": 14
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckfoodtype",
+        "pk": 59,
+        "fields": {
+            "truck": 37,
+            "food_type": 3
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckfoodtype",
+        "pk": 60,
+        "fields": {
+            "truck": 38,
+            "food_type": 5
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckfoodtype",
+        "pk": 61,
+        "fields": {
+            "truck": 38,
+            "food_type": 11
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckfoodtype",
+        "pk": 62,
+        "fields": {
+            "truck": 38,
+            "food_type": 14
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckfoodtype",
+        "pk": 63,
+        "fields": {
+            "truck": 39,
+            "food_type": 3
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckfoodtype",
+        "pk": 64,
+        "fields": {
+            "truck": 40,
+            "food_type": 3
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckfoodtype",
+        "pk": 65,
+        "fields": {
+            "truck": 41,
+            "food_type": 2
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckfoodtype",
+        "pk": 66,
+        "fields": {
+            "truck": 42,
+            "food_type": 5
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckfoodtype",
+        "pk": 67,
+        "fields": {
+            "truck": 42,
+            "food_type": 3
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckfoodtype",
+        "pk": 68,
+        "fields": {
+            "truck": 43,
+            "food_type": 5
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckfoodtype",
+        "pk": 69,
+        "fields": {
+            "truck": 43,
+            "food_type": 11
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckfoodtype",
+        "pk": 70,
+        "fields": {
+            "truck": 43,
+            "food_type": 13
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckfoodtype",
+        "pk": 71,
+        "fields": {
+            "truck": 44,
+            "food_type": 13
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckfoodtype",
+        "pk": 72,
+        "fields": {
+            "truck": 44,
+            "food_type": 11
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckfoodtype",
+        "pk": 73,
+        "fields": {
+            "truck": 44,
+            "food_type": 5
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckfoodtype",
+        "pk": 74,
+        "fields": {
+            "truck": 45,
+            "food_type": 3
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckfoodtype",
+        "pk": 75,
+        "fields": {
+            "truck": 45,
+            "food_type": 11
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckfoodtype",
+        "pk": 76,
+        "fields": {
+            "truck": 46,
+            "food_type": 8
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckfoodtype",
+        "pk": 77,
+        "fields": {
+            "truck": 13,
+            "food_type": 4
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckfoodtype",
+        "pk": 78,
+        "fields": {
+            "truck": 13,
+            "food_type": 7
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckfoodtype",
+        "pk": 85,
+        "fields": {
+            "truck": 47,
+            "food_type": 5
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckfoodtype",
+        "pk": 86,
+        "fields": {
+            "truck": 47,
+            "food_type": 3
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckfoodtype",
+        "pk": 87,
+        "fields": {
+            "truck": 47,
+            "food_type": 16
+        }
+    }
+]

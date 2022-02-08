@@ -1,0 +1,51 @@
+[
+    {
+        "model": "foodtruckfinderapi.day",
+        "pk": 1,
+        "fields": {
+            "day": "Sunday"
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.day",
+        "pk": 2,
+        "fields": {
+            "day": "Monday"
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.day",
+        "pk": 3,
+        "fields": {
+            "day": "Tuesday"
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.day",
+        "pk": 4,
+        "fields": {
+            "day": "Wednesday"
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.day",
+        "pk": 5,
+        "fields": {
+            "day": "Thursday"
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.day",
+        "pk": 6,
+        "fields": {
+            "day": "Friday"
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.day",
+        "pk": 7,
+        "fields": {
+            "day": "Saturday"
+        }
+    }
+]

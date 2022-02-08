@@ -1,0 +1,114 @@
+[
+    {
+        "model": "foodtruckfinderapi.useraccount",
+        "pk": 1,
+        "fields": {
+            "user_account": 1,
+            "owner": false
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.useraccount",
+        "pk": 2,
+        "fields": {
+            "user_account": 2,
+            "owner": false
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.useraccount",
+        "pk": 3,
+        "fields": {
+            "user_account": 2,
+            "owner": false
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.useraccount",
+        "pk": 4,
+        "fields": {
+            "user_account": 4,
+            "owner": false
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.useraccount",
+        "pk": 5,
+        "fields": {
+            "user_account": 5,
+            "owner": false
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.useraccount",
+        "pk": 6,
+        "fields": {
+            "user_account": 6,
+            "owner": true
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.useraccount",
+        "pk": 7,
+        "fields": {
+            "user_account": 7,
+            "owner": false
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.useraccount",
+        "pk": 8,
+        "fields": {
+            "user_account": 8,
+            "owner": false
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.useraccount",
+        "pk": 9,
+        "fields": {
+            "user_account": 9,
+            "owner": false
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.useraccount",
+        "pk": 10,
+        "fields": {
+            "user_account": 10,
+            "owner": false
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.useraccount",
+        "pk": 11,
+        "fields": {
+            "user_account": 11,
+            "owner": false
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.useraccount",
+        "pk": 12,
+        "fields": {
+            "user_account": 12,
+            "owner": true
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.useraccount",
+        "pk": 13,
+        "fields": {
+            "user_account": 13,
+            "owner": false
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.useraccount",
+        "pk": 14,
+        "fields": {
+            "user_account": 14,
+            "owner": false
+        }
+    }
+]

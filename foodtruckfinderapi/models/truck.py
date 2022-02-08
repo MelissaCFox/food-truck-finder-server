@@ -5,11 +5,16 @@ from foodtruckfinderapi.models.user_truck_review import UserTruckReview
 class Truck(models.Model):
     name = models.CharField(max_length=55)
     description = models.TextField()
-    website_url = models.TextField()
-    instagram_url = models.TextField()
+    website_url = models.TextField(default="")
+    facebook_url = models.TextField(default="")
+    instagram_url = models.TextField(default="")
+    twitter_url = models.TextField(default="")
     profile_img_src = models.ImageField()
     hours = models.CharField(max_length=55)
     dollars = models.IntegerField()
+
+    food_types = models.ManyToManyField("FoodType", through="TruckFoodType", related_name="trucks")
+
 
 
     @property

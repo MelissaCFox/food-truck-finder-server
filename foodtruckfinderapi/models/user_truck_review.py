@@ -1,8 +1,8 @@
 from django.db import models
 
 class UserTruckReview(models.Model):
-    user_account = models.ForeignKey("UserAccount", on_delete=models.CASCADE, related_name="user_reviews")
-    truck = models.ForeignKey("Truck", on_delete=models.CASCADE, related_name="truck_reviews")
+    user_account = models.ForeignKey("UserAccount", on_delete=models.CASCADE, related_name="reviews")
+    truck = models.ForeignKey("Truck", on_delete=models.CASCADE, related_name="reviews")
     review = models.TextField()
     date = models.DateField()
     rating = models.IntegerField()

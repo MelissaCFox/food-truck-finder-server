@@ -1,0 +1,154 @@
+[
+    {
+        "model": "foodtruckfinderapi.usertruckfavorites",
+        "pk": 1,
+        "fields": {
+            "user_account": 11,
+            "truck": 4
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.usertruckfavorites",
+        "pk": 2,
+        "fields": {
+            "user_account": 1,
+            "truck": 11
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.usertruckfavorites",
+        "pk": 3,
+        "fields": {
+            "user_account": 1,
+            "truck": 1
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.usertruckfavorites",
+        "pk": 4,
+        "fields": {
+            "user_account": 12,
+            "truck": 4
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.usertruckfavorites",
+        "pk": 5,
+        "fields": {
+            "user_account": 13,
+            "truck": 4
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.usertruckfavorites",
+        "pk": 6,
+        "fields": {
+            "user_account": 12,
+            "truck": 1
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.usertruckfavorites",
+        "pk": 7,
+        "fields": {
+            "user_account": 1,
+            "truck": 1
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.usertruckfavorites",
+        "pk": 8,
+        "fields": {
+            "user_account": 12,
+            "truck": 4
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.usertruckfavorites",
+        "pk": 9,
+        "fields": {
+            "user_account": 13,
+            "truck": 4
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.usertruckfavorites",
+        "pk": 10,
+        "fields": {
+            "user_account": 12,
+            "truck": 1
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.usertruckfavorites",
+        "pk": 11,
+        "fields": {
+            "user_account": 12,
+            "truck": 12
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.usertruckfavorites",
+        "pk": 12,
+        "fields": {
+            "user_account": 6,
+            "truck": 12
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.usertruckfavorites",
+        "pk": 13,
+        "fields": {
+            "user_account": 6,
+            "truck": 4
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.usertruckfavorites",
+        "pk": 14,
+        "fields": {
+            "user_account": 6,
+            "truck": 20
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.usertruckfavorites",
+        "pk": 15,
+        "fields": {
+            "user_account": 14,
+            "truck": 4
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.usertruckfavorites",
+        "pk": 16,
+        "fields": {
+            "user_account": 2,
+            "truck": 21
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.usertruckfavorites",
+        "pk": 17,
+        "fields": {
+            "user_account": 2,
+            "truck": 46
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.usertruckfavorites",
+        "pk": 18,
+        "fields": {
+            "user_account": 2,
+            "truck": 16
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.usertruckfavorites",
+        "pk": 19,
+        "fields": {
+            "user_account": 13,
+            "truck": 40
+        }
+    }
+]

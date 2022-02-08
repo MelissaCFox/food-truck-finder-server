@@ -1,0 +1,28 @@
+[
+    {
+        "model": "foodtruckfinderapi.usersuggestion",
+        "pk": 1,
+        "fields": {
+            "user_account": 6,
+            "truck": 3,
+            "neighborhood": 5,
+            "date": "2021-12-25",
+            "message": "Feel like some xmas shaved ice???",
+            "read": false,
+            "include_contact": false
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.usersuggestion",
+        "pk": 2,
+        "fields": {
+            "user_account": 1,
+            "truck": 13,
+            "neighborhood": 4,
+            "date": "2021-12-09",
+            "message": "A raucous party at the corner of 5th and main! Be there!",
+            "read": false,
+            "include_contact": true
+        }
+    }
+]

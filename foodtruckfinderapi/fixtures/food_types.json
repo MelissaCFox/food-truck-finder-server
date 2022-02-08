@@ -1,0 +1,121 @@
+[
+    {
+        "model": "foodtruckfinderapi.foodtype",
+        "pk": 1,
+        "fields": {
+            "type": "Seafood"
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.foodtype",
+        "pk": 2,
+        "fields": {
+            "type": "Mexican"
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.foodtype",
+        "pk": 3,
+        "fields": {
+            "type": "Dessert"
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.foodtype",
+        "pk": 4,
+        "fields": {
+            "type": "Asian-Fusion"
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.foodtype",
+        "pk": 5,
+        "fields": {
+            "type": "American"
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.foodtype",
+        "pk": 6,
+        "fields": {
+            "type": "Italian"
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.foodtype",
+        "pk": 7,
+        "fields": {
+            "type": "Thai"
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.foodtype",
+        "pk": 8,
+        "fields": {
+            "type": "Beverage"
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.foodtype",
+        "pk": 9,
+        "fields": {
+            "type": "Latin American"
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.foodtype",
+        "pk": 10,
+        "fields": {
+            "type": "Southern"
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.foodtype",
+        "pk": 11,
+        "fields": {
+            "type": "Comfort"
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.foodtype",
+        "pk": 12,
+        "fields": {
+            "type": "Pizza"
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.foodtype",
+        "pk": 13,
+        "fields": {
+            "type": "Barbeque"
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.foodtype",
+        "pk": 14,
+        "fields": {
+            "type": "Sandwiches"
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.foodtype",
+        "pk": 15,
+        "fields": {
+            "type": "Soup"
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.foodtype",
+        "pk": 16,
+        "fields": {
+            "type": "Vegetarian"
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.foodtype",
+        "pk": 17,
+        "fields": {
+            "type": "Vietnamese"
+        }
+    }
+]

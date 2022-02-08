@@ -1,0 +1,112 @@
+[
+    {
+        "model": "foodtruckfinderapi.neighborhood",
+        "pk": 1,
+        "fields": {
+            "name": "12 South",
+            "description": "Extremely pedestrian-friendly, the main strip of this neighborhood starts around 12th and Kirkwood Ave, near Sevier Park. This half-mile stretch is home to vintage clothing stores, gourmet restaurants, bakeries, boutiques, and other unique businesses.",
+            "profile_img_src": "https://www.visitmusiccity.com/sites/www/files/styles/medium_portrait_3x4/public/2019-03/IBelieveinNashville.jpg?h=82f92a78&itok=8hHqR4Amv",
+            "link_ng": "http://nashvilleguru.com/neighborhoods/12-south"
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.neighborhood",
+        "pk": 12,
+        "fields": {
+            "name": "5 Points",
+            "description": "Located within the heart of East Nashville, along Woodland Street and the Cumberland River, this area is home to a culturally diverse and eclectic community, complete with plenty of dive bars, craft cocktail joints, and vintage stores.",
+            "profile_img_src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Eastnashvillemural.jpg/250px-Eastnashvillemural.jpg",
+            "link_ng": "http://nashvilleguru.com/neighborhoods/east-nashville"
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.neighborhood",
+        "pk": 3,
+        "fields": {
+            "name": "Berry Hille",
+            "description": "Located just south of the city, beyond 8th ave, Berry Hill is a flourishing neighborhood best known for its wide-variety of locally-owned funky independent shops, restaurants, recording studios and music publishers occupying many of the homes in this neighborhood.",
+            "profile_img_src": "https://www.berryhilltn.org/ImageRepository/Document?documentID=204",
+            "link_ng": "http://nashvilleguru.com/neighborhoods/berry-hill"
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.neighborhood",
+        "pk": 4,
+        "fields": {
+            "name": "Downtown",
+            "description": "The energetic hub of Nashville's country music scene, centered along Broadway. Historic buildings have been reimagined into music attractions, boutique hotels, art galleries and, of course, honky tonks.",
+            "profile_img_src": "https://img.ctykit.com/cdn/tn-nashville/images/tr:w-1800/listicle-broadway.png",
+            "link_ng": "http://nashvilleguru.com/neighborhoods/downtown"
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.neighborhood",
+        "pk": 5,
+        "fields": {
+            "name": "German Town",
+            "description": "Trendy neighborhood directly north of downtown Nasvhille, Germantown is named for the European immigrants who first settled here in the mid-19th centry. This area is home to the Tennessee State Museum and Bicentennial Capital Mall State Park.",
+            "profile_img_src": "https://images.squarespace-cdn.com/content/v1/5c115fec9d5abbba78a23c93/1585605193768-DITS62RJ20PGD0A4O7V9/Germantown+map+02-01.jpg?format=1000w",
+            "link_ng": "http://nashvilleguru.com/neighborhoods/germantown"
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.neighborhood",
+        "pk": 6,
+        "fields": {
+            "name": "Green Hills",
+            "description": "Located south of downtown and in close proximity to Vanderbilt, Belmont, and Lipscomb, directly south across I-440 from Hillsboro Village, Green Hills is an affluent suburban enclave known for upscale brands, boutiques, and the famed Bluebird Cafe.",
+            "profile_img_src": "http://nashvilleguru.com/officialwebsite/wp-content/uploads/2021/09/Green-Hills-Nashville-2021_-26-1-scaled.jpg",
+            "link_ng": "http://nashvilleguru.com/neighborhoods/green-hills"
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.neighborhood",
+        "pk": 7,
+        "fields": {
+            "name": "The Gulch",
+            "description": "South southwest of downtown, along 11th and 12th Ave, the Gulch was once an abandoned industrial area that's since been revitalized. Now a LEED-certified, highly walkable community, The Gulch is teeming with instagramable murals, live music venues, breweries, and more.",
+            "profile_img_src": "https://boomtown-production-consumer-backup.s3.amazonaws.com/2603/files/2016/11/THE-GULCH.png",
+            "link_ng": "http://nashvilleguru.com/neighborhoods/gulch"
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.neighborhood",
+        "pk": 8,
+        "fields": {
+            "name": "Hillsboro Village",
+            "description": "Tree-lined streets of Wedgewood and 21st Ave, adjacent to the campuses of both Vanderbilt and Belmont Universities. A great location for strolling, Hillsboro Village contains plenty of shops, boutiqes, and restaurants.",
+            "profile_img_src": "https://i.etsystatic.com/6415380/r/il/318c77/664411097/il_570xN.664411097_jr18.jpg",
+            "link_ng": "http://nashvilleguru.com/neighborhoods/hillsboro-village"
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.neighborhood",
+        "pk": 9,
+        "fields": {
+            "name": "The Nations",
+            "description": "One of the oldest neighborhoods in Nashville, The Nations is a former industrial area, complete with abandoned warehouses and mills that have attracted craft breweries, bars, and art galleries to the area.",
+            "profile_img_src": "http://nashvilleguru.com/officialwebsite/wp-content/uploads/2018/09/The-Nations-Header-e1536325105436.jpg",
+            "link_ng": "http://nashvilleguru.com/neighborhoods/the-nations"
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.neighborhood",
+        "pk": 10,
+        "fields": {
+            "name": "Sylvan Park",
+            "description": "A quiet neighborhood southwest of downtown, whose locally-owned restaurants, bars, and shops have stood the test of time. The neighborhood's main thoroughfare is Murphy Road, ending at McCabe Park",
+            "profile_img_src": "http://nashvilleguru.com/officialwebsite/wp-content/uploads/2011/07/Sylvan-Park-Nashville-42-512x341.jpg",
+            "link_ng": "http://nashvilleguru.com/neighborhoods/sylvan-park"
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.neighborhood",
+        "pk": 11,
+        "fields": {
+            "name": "West End",
+            "description": "Home to the biggest 'urban' park in Nashville, West End is located just south of downtown. Perhaps best known for Centennial Park - home to a full-scale replica of the Green Parthenon. Elliston Place, just up the way, is home to some of the city's best rock clubs.",
+            "profile_img_src": "http://nashvilleguru.com/officialwebsite/wp-content/uploads/2014/02/Elliston-Nashville-TN-31.jpg",
+            "link_ng": "http://nashvilleguru.com/neighborhoods/west-end"
+        }
+    }
+]

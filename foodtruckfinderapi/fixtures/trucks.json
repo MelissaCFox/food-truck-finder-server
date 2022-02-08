@@ -1,0 +1,17 @@
+[
+    {
+        "model": "foodtruckfinderapi.truck",
+        "pk": 1,
+        "fields": {
+            "name": "",
+            "description": "",
+            "website_url": "",
+            "facebook_url": "",
+            "instagram_url": "",
+            "twitter_url": "",
+            "profile_img_src": "",
+            "hours": "",
+            "dollars": 1
+        }
+    }
+]
