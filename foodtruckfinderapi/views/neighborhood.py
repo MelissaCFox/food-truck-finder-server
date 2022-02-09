@@ -13,9 +13,9 @@ class NeighborhoodView(ViewSet):
         Returns:
             Response: JSON serialized list of neighborhood instances
         """
-        categories=Neighborhood.objects.all()
+        neighborhoods=Neighborhood.objects.all()
         
-        serializer=NeighborhoodSerializer(categories, many=True)
+        serializer=NeighborhoodSerializer(neighborhoods, many=True)
         return Response(serializer.data)
 
 

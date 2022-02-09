@@ -15,9 +15,9 @@ class UserSuggestionView(ViewSet):
         Returns:
             Response: JSON serialized list of user_suggestion instances
         """
-        categories=UserSuggestion.objects.all()
+        suggestions=UserSuggestion.objects.all()
 
-        serializer=UserSuggestionSerializer(categories, many=True)
+        serializer=UserSuggestionSerializer(suggestions, many=True)
         return Response(serializer.data)
 
 
@@ -48,7 +48,7 @@ class UserSuggestionView(ViewSet):
         user_suggestion = UserSuggestion.objects.create(
             user_account = user_account,
             truck = truck,
-            date = date.today(),
+            date = request.data['date'],
             message = request.data['message'],
             neighborhood = neighborhood,
             include_contact = request.data['includeContact'],

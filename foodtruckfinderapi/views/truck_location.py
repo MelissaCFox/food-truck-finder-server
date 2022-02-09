@@ -18,9 +18,9 @@ class TruckLocationView(ViewSet):
         Returns:
             Response: JSON serialized list of truck_location instances
         """
-        categories=TruckLocation.objects.all()
+        locations=TruckLocation.objects.all()
 
-        serializer=TruckLocationSerializer(categories, many=True)
+        serializer=TruckLocationSerializer(locations, many=True)
         return Response(serializer.data)
 
 

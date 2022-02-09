@@ -19,8 +19,10 @@ from django.conf.urls import include
 from django.conf.urls.static import static
 from django.urls import path
 from rest_framework import routers
-from foodtruckfinderapi.views import (register_user, login_user, FoodTypeView, DayView, NeighborhoodView,
-                                      TruckFoodTypeView, TruckLocationView, TruckView, UserSuggestionView)
+from foodtruckfinderapi.views import (register_user, login_user, FoodTypeView, DayView,
+                                    NeighborhoodView, TruckFoodTypeView, TruckLocationView,
+                                    TruckView, UserSuggestionView, UserTruckFavoriteView,
+                                    UserTruckReviewView, UserAccountView, TruckOwnerView)
 
 router = routers.DefaultRouter(trailing_slash=False)
 router.register(r'foodtypes', FoodTypeView, 'foodtype')
@@ -29,7 +31,12 @@ router.register(r'neighborhoods', NeighborhoodView, 'neighborhood')
 router.register(r'truckfoodtypes', TruckFoodTypeView, 'truckfoodtype')
 router.register(r'trucklocations', TruckLocationView, 'trucklocation')
 router.register(r'trucks', TruckView, 'truck')
-router.register(r'usersuggestions', UserSuggestionView, 'usersuggestion')
+router.register(r'suggestions', UserSuggestionView, 'suggestion')
+router.register(r'favorites', UserTruckFavoriteView, 'favorite')
+router.register(r'reviews', UserTruckReviewView, 'review')
+router.register(r'users', UserAccountView, 'user')
+router.register(r'truckowners', TruckOwnerView, 'truckowner')
+
 
 urlpatterns = [
     path('', include(router.urls)),

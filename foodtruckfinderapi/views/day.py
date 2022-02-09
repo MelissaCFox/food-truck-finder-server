@@ -12,9 +12,9 @@ class DayView(ViewSet):
         Returns:
             Response: JSON serialized list of day instances
         """
-        categories=Day.objects.all()
+        days=Day.objects.all()
 
-        serializer=DaySerializer(categories, many=True)
+        serializer=DaySerializer(days, many=True)
         return Response(serializer.data)
 
 

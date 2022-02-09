@@ -16,9 +16,9 @@ class TruckFoodTypeView(ViewSet):
         Returns:
             Response: JSON serialized list of truck_food_type instances
         """
-        categories=TruckFoodType.objects.all()
+        truck_food_types=TruckFoodType.objects.all()
 
-        serializer=TruckFoodTypeSerializer(categories, many=True)
+        serializer=TruckFoodTypeSerializer(truck_food_types, many=True)
         return Response(serializer.data)
 
 

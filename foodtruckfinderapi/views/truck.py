@@ -122,5 +122,5 @@ class TruckSerializer(serializers.ModelSerializer):
         model = Truck
         fields = ('id', 'name','description', 'website_url', 'facebook_url', 'instagram_url',
                   'twitter_url', 'profile_img_src', 'hours', 'dollars',
-                  'food_types', 'favorite', 'owner', 'user_rating')
+                  'food_types', 'favorite', 'owner', 'user_rating', 'suggestions')
         depth = 1
