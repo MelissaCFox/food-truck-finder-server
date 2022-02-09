@@ -14,6 +14,8 @@ class Truck(models.Model):
     dollars = models.IntegerField()
 
     food_types = models.ManyToManyField("FoodType", through="TruckFoodType", related_name="trucks")
+    owners = models.ManyToManyField("UserAccount", through="TruckOwner",
+                                    related_name="trucks_owned")
 
 
 
@@ -49,8 +51,7 @@ class Truck(models.Model):
 
     @property
     def user_rating(self):
-        """[summary]
-        calculates average user_rating based on the reviews that have
+        """calculates average user_rating based on the reviews that have
         been submitted for that truck
 
         Returns:
