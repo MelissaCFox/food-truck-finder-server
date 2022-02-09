@@ -3,14 +3,620 @@
         "model": "foodtruckfinderapi.truck",
         "pk": 1,
         "fields": {
-            "name": "",
-            "description": "",
-            "website_url": "",
+            "name": "The Grilled Cheeserie",
+            "description": "Grilled cheese. Need we say more?",
+            "website_url": "https://grilledcheeserie.com/",
             "facebook_url": "",
-            "instagram_url": "",
+            "instagram_url": "https://www.instagram.com/thegrilledcheeserie/",
             "twitter_url": "",
-            "profile_img_src": "",
-            "hours": "",
+            "profile_img_src": "https://scontent-atl3-2.xx.fbcdn.net/v/t1.18169-9/15894691_446926545696383_836555503444420918_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=mvZNF9EKZXoAX_SsxOG&tn=gC_ctWtken33D14b&_nc_ht=scontent-atl3-2.xx&oh=24fd052765c95c31f41a0fa9ad43ddb1&oe=61D1EDDC",
+            "hours": "12pm-4pm",
+            "dollars": 1
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truck",
+        "pk": 2,
+        "fields": {
+            "name": "Yayo's OMG",
+            "description": "Vintage Mexican cuisine with a modern twist",
+            "website_url": "https://yayosomg.com/",
+            "facebook_url": "",
+            "instagram_url": "https://www.instagram.com/yayosomg/",
+            "twitter_url": "",
+            "profile_img_src": "https://scontent-atl3-2.xx.fbcdn.net/v/t1.18169-9/216266_167892329930988_2860126_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=4uIhewS0FNEAX_ax1q6&_nc_ht=scontent-atl3-2.xx&oh=92930e0702782ca377ef0f7798c69696&oe=61D5CF85",
+            "hours": "11am-3pm",
+            "dollars": 1
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truck",
+        "pk": 3,
+        "fields": {
+            "name": "Blue Monkey Shaved Ice",
+            "description": "Gourmet Hawaiian shaved ice made with 100% cane sugar",
+            "website_url": "https://www.bluemonkeyshavedice.com/",
+            "facebook_url": "",
+            "instagram_url": "https://www.instagram.com/bluemonkeyice/",
+            "twitter_url": "",
+            "profile_img_src": "https://scontent-atl3-2.xx.fbcdn.net/v/t1.6435-9/181569119_3933528183396908_8191068417583736295_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=iiIDeyiBfBYAX9hOSE0&_nc_ht=scontent-atl3-2.xx&oh=7331f6fd9ef06646187cd5445233a5f3&oe=61D4FA6C",
+            "hours": "10am-4pm",
+            "dollars": 1
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truck",
+        "pk": 4,
+        "fields": {
+            "name": "Cousins Maine Lobster",
+            "description": "Authentic Maine lobster - as seen on Shark Tank!",
+            "website_url": "https://www.cousinsmainelobster.com/locations/nashville-tn/",
+            "facebook_url": "",
+            "instagram_url": "https://www.instagram.com/cousinsmainelobster/",
+            "twitter_url": "",
+            "profile_img_src": "https://scontent-atl3-2.xx.fbcdn.net/v/t1.6435-9/120038346_3416632551738335_1713002865758525185_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=GHHQAeGGZHkAX_bRtxH&_nc_ht=scontent-atl3-2.xx&oh=695b5c2d06d0ce8078fa2e5d95757348&oe=61D2C30E",
+            "hours": "4pm-7pm",
+            "dollars": 2
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truck",
+        "pk": 5,
+        "fields": {
+            "name": "Deg Thai",
+            "description": "Thai... with a twist!",
+            "website_url": "https://degthai.com/",
+            "instagram_url": "https://www.instagram.com/degthaistreetfood/",
+            "facebook_url": "",
+            "twitter_url": "",
+            "profile_img_src": "https://scontent-atl3-2.xx.fbcdn.net/v/t1.6435-9/148088040_5640537025972226_6667369788664367500_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=jDUef2dgQo0AX_kFLec&_nc_ht=scontent-atl3-2.xx&oh=069c541922afd6d70ad2df04fa4d0668&oe=61D3DDCD",
+            "hours": "12pm-2pm",
+            "dollars": 2
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truck",
+        "pk": 6,
+        "fields": {
+            "name": "Funk Seoul Brother",
+            "description": "Korean street food featuring crowd-pleasing Korean fried chicken, poke, and ramen",
+            "website_url": "https://www.facebook.com/funkseoultruck/",
+            "instagram_url": "https://www.instagram.com/funkseoultruck/?hl=en",
+            "profile_img_src": "https://scontent-atl3-2.xx.fbcdn.net/v/t31.18172-8/13988121_1127865500590047_875621548803343299_o.jpg?_nc_cat=111&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=HMEaqITE8VgAX9TsxRq&_nc_ht=scontent-atl3-2.xx&oh=3da706c4e302abf94429f455de960657&oe=61D501BB",
+            "hours": "1pm-3pm",
+            "dollars": 2
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truck",
+        "pk": 8,
+        "fields": {
+            "name": "Smoke Et Al",
+            "description": "Why did this description disappear?",
+            "website_url": "https://www.smokeetal.com/",
+            "instagram_url": "https://www.instagram.com/SmokeEtAlFoodTruck/",
+            "facebook_url": "",
+            "twitter_url": "",
+            "profile_img_src": "https://scontent-atl3-2.xx.fbcdn.net/v/t1.18169-9/27540290_1736086619787443_8332390477082173782_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=jZWNpEHri5wAX_ucmGh&_nc_ht=scontent-atl3-2.xx&oh=83cad04b5536060e5053f0bfa3ba6f10&oe=61D466EB",
+            "hours": "11am-4pm",
+            "dollars": 2
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truck",
+        "pk": 11,
+        "fields": {
+            "name": "Gypsy Crepe Company",
+            "description": "Sweet and savory crepes served in traditional Paris street-style cones",
+            "website_url": "https://www.gypsycrepecompany.com/",
+            "instagram_url": "https://www.instagram.com/gypsycrepeco/?hl=en",
+            "profile_img_src": "http://static1.squarespace.com/static/5a6626231f318dbc77648fd0/t/5a662c8b71c10bfb2a4d2a07/1516645539162/GypsyCrepeCo-ColourHqFinal.jpg?format=1500w",
+            "hours": "4pm-9pm",
+            "dollars": 1
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truck",
+        "pk": 12,
+        "fields": {
+            "name": "Driving You Donuts",
+            "description": "A donut kitchen on wheels.",
+            "website_url": " http://www.drivingyoudonuts.com/",
+            "instagram_url": "https://www.instagram.com/drivingyoudonuts/?hl=en",
+            "profile_img_src": "https://scontent-atl3-2.xx.fbcdn.net/v/t1.6435-9/162670894_270943864521688_7233244360258708695_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=ltOQz7fQ4n8AX9lmap4&_nc_ht=scontent-atl3-2.xx&oh=8b81fb99126763ddec4e238533c431af&oe=61DE5758",
+            "hours": "8:30am-11am",
+            "dollars": 2
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truck",
+        "pk": 13,
+        "fields": {
+            "name": "Twisted Thai",
+            "description": "Thai inspired street food with a twist!",
+            "website_url": "",
+            "instagram_url": "https://www.instagram.com/twistedthai/?hl=en",
+            "profile_img_src": "https://scontent-atl3-2.xx.fbcdn.net/v/t1.18169-9/16266220_384553188591992_711093882303317474_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=P1jkNVYcIN0AX_3DPqQ&_nc_ht=scontent-atl3-2.xx&oh=00_AT8Z0XkbEVmxAjyA8A3qLpvFrfvFjHvPcOnsUmW8hgv1Sg&oe=61E590AB",
+            "hours": "11-4",
+            "dollars": 2
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truck",
+        "pk": 14,
+        "fields": {
+            "name": "Franklin's Fruit Tea",
+            "description": "Paradise in Every Sip!",
+            "website_url": "https://www.franklinsfruittea.com/",
+            "instagram_url": "https://www.instagram.com/franklinsfruittea/",
+            "facebook_url": "https://www.facebook.com/franklinsfruittea",
+            "twitter_url": "https://twitter.com/FranklinFruit",
+            "profile_img_src": "https://scontent-atl3-2.xx.fbcdn.net/v/t1.6435-9/54436187_2191506147833411_8439322578694176768_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=UyhO3Bez1hQAX8XljJE&_nc_ht=scontent-atl3-2.xx&oh=00_AT92vpuxAcZMEcYH3OcACIUkYlPh6SjiwlNb6Evk_MkOEw&oe=61F123F5",
+            "hours": "11-2",
+            "dollars": 1
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truck",
+        "pk": 15,
+        "fields": {
+            "name": "Fatty Matty's Pizza",
+            "description": "New York Style pizza with handmade dough and homemade sauce.",
+            "website_url": "",
+            "instagram_url": "https://www.instagram.com/Fattymattysmobilepizza/",
+            "profile_img_src": "https://scontent-atl3-2.xx.fbcdn.net/v/t31.18172-8/20728993_1854381637916172_3981556584205738908_o.jpg?_nc_cat=110&ccb=1-5&_nc_sid=19026a&_nc_ohc=Hx0w8bPv-jMAX-bnkNP&_nc_oc=AQl8e0JEbmV21OHiwtlsh92ZExpzzaYfCKbhiBYzLvWTFQjpeGRAjsdhshXhpxbEFykF6uVW62RL5XvfPafCcrBs&_nc_ht=scontent-atl3-2.xx&oh=00_AT8o2KLMbc8_g95U-uwOHwoF1XGLzyC85LM4ItrEzo-nPw&oe=61EF22DD",
+            "hours": "10am-4pm",
+            "dollars": 1
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truck",
+        "pk": 16,
+        "fields": {
+            "name": "Chivanada",
+            "description": "Colombian empanadas served with the sounds of the hottest Salsa!",
+            "website_url": "https://www.chivanada.com/",
+            "instagram_url": "https://www.instagram.com/chivanada/",
+            "profile_img_src": "https://scontent-atl3-2.xx.fbcdn.net/v/t1.6435-9/40161811_1054055911445302_9093214311374913536_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=As95yo71s1AAX-R4Omi&_nc_oc=AQkVEQtRceXAecjX5vhq3m0vzPnNDRedhJk5kgLJZQ2BMgsX8hJIoR_UdL1XNZkhvgLUccmMdVDnMdqcKur8wYGm&_nc_ht=scontent-atl3-2.xx&oh=00_AT9g1E7TT0Obd41oxBomGryijX2DPGnY2_9IprmYNkiH6g&oe=61F2BAD2",
+            "hours": "2pm-7pm",
+            "dollars": 2
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truck",
+        "pk": 17,
+        "fields": {
+            "name": "The Rolling Recipe",
+            "description": "Nashville-inspired Southern-fusion sandwiches",
+            "website_url": "https://therollingrecipe.com/",
+            "instagram_url": "https://www.instagram.com/therollingrecipe_/",
+            "facebook_url": "https://www.facebook.com/therollingrecipellc/",
+            "twitter_url": "https://twitter.com/recipellc?lang=en",
+            "profile_img_src": "https://scontent-atl3-2.xx.fbcdn.net/v/t1.6435-9/57384340_420302665369694_126317560860770304_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=wPj0tujfMLgAX-iSoI2&_nc_ht=scontent-atl3-2.xx&oh=00_AT8y33gldwwdfENIcRNVBXEnUNnjPt9PEj9XxJhkCICN8w&oe=61F1A8BC",
+            "hours": "10am-4pm",
+            "dollars": 2
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truck",
+        "pk": 18,
+        "fields": {
+            "name": "Jose's Kitchen",
+            "description": "Fusion of Chinese and Mexican cuisine",
+            "website_url": "https://joseskitchentn.com/",
+            "instagram_url": "",
+            "facebook_url": "https://www.facebook.com/people/Joses-Kitchen/100063739203337/",
+            "twitter_url": "",
+            "profile_img_src": "https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-6/241683514_238234684977837_5293772917947606788_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=ID_odDKt3TAAX-4-hos&_nc_ht=scontent-atl3-2.xx&oh=00_AT-MWFnmobcqn60D2rvhjvCzPJo19sjh7i5XiN7KvZBs9A&oe=61D050AC",
+            "hours": "10am-4pm",
+            "dollars": 1
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truck",
+        "pk": 19,
+        "fields": {
+            "name": "Zander's",
+            "description": "Hot, made from scratch, wood-fired pizzas, plus ice cream!",
+            "website_url": "http://www.zanderspizza.com/",
+            "instagram_url": "https://www.instagram.com/zanderspizza/?hl=en",
+            "profile_img_src": "https://scontent-atl3-2.xx.fbcdn.net/v/t1.6435-9/52755283_1092391717600366_1253661019096481792_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=rxD6cMfFWLoAX-o5Kqp&_nc_oc=AQmTrs9g4KdlKUz29kOHgFdGq9aEdwl3jeSTk7o96ny92HLSQ0JdMjqg8WgBGIuk5icwa8KeCYW0Mg6VYLBy9sxO&_nc_ht=scontent-atl3-2.xx&oh=00_AT-werIvv9-R0q_RLMyV7lR6rPwMDv0_1MQJk-W4YT-Njw&oe=61F1BE29",
+            "hours": "10am-4pm",
+            "dollars": 2
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truck",
+        "pk": 20,
+        "fields": {
+            "name": "Nash Dogs",
+            "description": "Serving 100% Angus beef hot dogs - premium toppings and veggies dogs always available!",
+            "website_url": "https://nashdogs.com/",
+            "instagram_url": "https://www.instagram.com/nashdogs/?hl=en",
+            "facebook_url": "https://www.facebook.com/Nashdogs/",
+            "twitter_url": "https://twitter.com/nashdogstn?lang=en",
+            "profile_img_src": "https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-6/240659834_238334191541293_1715511401969520316_n.jpg?_nc_cat=111&_nc_rgb565=1&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=fJDkNbqg1WUAX8xaG2v&_nc_ht=scontent-atl3-2.xx&oh=00_AT_BRfPZP-ypj69Py85z5kNCqEKp2oM_BrnwYEo0gUXefg&oe=61D02A6C",
+            "hours": "11-2",
+            "dollars": 1
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truck",
+        "pk": 21,
+        "fields": {
+            "name": "Underground Chicken",
+            "description": "Fried chicken tenders and fried okra, coupled with shoestring fries, fried pickles, and Tennessee street corn - you'll walk away extremely happy and extremely full!",
+            "website_url": "",
+            "instagram_url": "https://www.instagram.com/underground.chicken/?hl=en",
+            "facebook_url": "https://www.facebook.com/UndergroundChicken/",
+            "twitter_url": "",
+            "profile_img_src": "https://scontent-atl3-2.xx.fbcdn.net/v/t1.6435-9/100507212_104686204595557_849830391287119872_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=kDA-5vOjpRsAX9B_DJx&_nc_ht=scontent-atl3-2.xx&oh=00_AT9oUDiBfndHkVJxe8XWArZLeGxefTJCSg41iJ2xwwtl1w&oe=61F0B765",
+            "hours": "10am-4pm",
+            "dollars": 1
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truck",
+        "pk": 22,
+        "fields": {
+            "name": "Joe's Rollin' Smoke BBQ",
+            "description": "Great low and slow Texas style barbeque with Joe's special recipes",
+            "website_url": "https://www.joesrollinsmokebbq.com/",
+            "instagram_url": "https://www.instagram.com/joesrollinsmokebbq/?hl=en",
+            "facebook_url": "https://www.facebook.com/joesrollinsmoke/",
+            "twitter_url": "",
+            "profile_img_src": "https://scontent-atl3-2.xx.fbcdn.net/v/t1.6435-9/118702819_107528451082136_4706062883502300599_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=OsDeBofp-18AX_Jx5e1&_nc_ht=scontent-atl3-2.xx&oh=00_AT_ooo8nP14ny0HKnHfdGuwKgXLRYE3hTZ9g6xsaYtI4Zg&oe=61EFE4DC",
+            "hours": "4pm-8:30pm",
+            "dollars": 1
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truck",
+        "pk": 23,
+        "fields": {
+            "name": "Flour & Forge",
+            "description": "Wood fired pizza",
+            "website_url": "https://flourandforge.com/",
+            "instagram_url": "https://www.instagram.com/flourandforge/?hl=en",
+            "facebook_url": "https://www.facebook.com/FlourAndForge",
+            "twitter_url": "",
+            "profile_img_src": "https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-6/240672759_142746734708963_6068416341527669792_n.png?_nc_cat=106&_nc_rgb565=1&ccb=1-5&_nc_sid=e3f864&_nc_ohc=13eQ62jSBk4AX8ihzRw&tn=gC_ctWtken33D14b&_nc_ht=scontent-atl3-2.xx&oh=00_AT8OZ0vt3kGC6VdQqNqJy84TjDcfrTlQwTfDV2pon5tykw&oe=61D176CB",
+            "hours": "4pm-7pm",
+            "dollars": 2
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truck",
+        "pk": 24,
+        "fields": {
+            "name": "Single Tree BBQ",
+            "description": "Wood. Fire. BBQ. We keep it simple to create amazing brisket, pork, and other specialty items.",
+            "website_url": "https://www.singletreebbq.com/",
+            "instagram_url": "https://www.instagram.com/singletreebbq/?hl=en",
+            "profile_img_src": "https://scontent-atl3-2.xx.fbcdn.net/v/t1.6435-9/127237460_112580614004721_2027925246035917640_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=174925&_nc_ohc=z7OedI-rM2sAX_hAOXe&_nc_ht=scontent-atl3-2.xx&oh=00_AT8WYWt5B-22YIcQdWxoejFyfr4IS_GRGdOm7K4_81Dwpw&oe=61F21B9F",
+            "hours": "1:30pm-6pm",
+            "dollars": 2
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truck",
+        "pk": 25,
+        "fields": {
+            "name": "Mrs. Grissom's Panini Grill",
+            "description": "Serving pimento cheese sandwiches, chicken salad, buffalo chicken nachos and more!",
+            "website_url": "",
+            "instagram_url": "https://www.instagram.com/mrsgrissomspaninigrill/?hl=en",
+            "profile_img_src": "https://scontent-atl3-2.xx.fbcdn.net/v/t1.6435-9/53417265_268755084037581_3752514202120486912_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=t_M6fmqDwKQAX-QOKH_&_nc_ht=scontent-atl3-2.xx&oh=00_AT_vl0mI6RLZCgbJd0YXN0dWMGL7vk_XCklpj4_q4ES5fg&oe=61F20690",
+            "hours": "5pm-11:30pm",
+            "dollars": 2
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truck",
+        "pk": 26,
+        "fields": {
+            "name": "Ellie Mae's Cafe",
+            "description": "Specializing in fried catfish fillets, homemade hushpuppy's and more",
+            "website_url": "",
+            "instagram_url": "https://www.instagram.com/ellie.maescafe/?hl=en",
+            "facebook_url": "https://www.facebook.com/elliemaecafe/",
+            "twitter_url": "",
+            "profile_img_src": "https://scontent-atl3-2.xx.fbcdn.net/v/t1.6435-9/123943391_114593917124491_7397132991498336429_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=e3f864&_nc_ohc=hkEG1b-QaUoAX8rvmBh&_nc_ht=scontent-atl3-2.xx&oh=00_AT-DfqYau3fvrdm0zI5aPwfbrA7lb5jf6aZASx72KECZsw&oe=61F1946A",
+            "hours": "7:30am-2pm",
+            "dollars": 1
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truck",
+        "pk": 27,
+        "fields": {
+            "name": "Vee's Chick N Cones",
+            "description": "We have created an awesome twist on Chicken and Waffles! We serve crispy chicken, with many sauce options, served in a warm waffle cone.",
+            "website_url": "",
+            "instagram_url": "https://www.instagram.com/veeschickncones/?hl=en",
+            "profile_img_src": "https://scontent-atl3-2.xx.fbcdn.net/v/t1.6435-9/120007549_113540147167695_3611087817978770817_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=bxZKsptDUcwAX8a7y74&_nc_ht=scontent-atl3-2.xx&oh=00_AT8iXgT7U5Xyxnlnpb38Zn5vk7plIowndQnovAEh3M0JJQ&oe=61F18FC9",
+            "hours": "10am-4pm",
+            "dollars": 2
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truck",
+        "pk": 28,
+        "fields": {
+            "name": "The TN Cobbler Co.",
+            "description": "Southern inspired sweet truck",
+            "website_url": "https://www.tncobblerco.com/",
+            "instagram_url": "https://www.instagram.com/tncobblerco/?hl=en",
+            "profile_img_src": "https://scontent-atl3-2.xx.fbcdn.net/v/t31.18172-8/13416831_1339160166099701_8232557228685942573_o.png?_nc_cat=106&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=t3gNeRdioAEAX8iTbqA&_nc_ht=scontent-atl3-2.xx&oh=00_AT8bvoPuPFL47xMZPg56RHcs9o0S-i95S5gIAWXLAvx47A&oe=61F15DCB",
+            "hours": "4pm-9pm",
+            "dollars": 2
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truck",
+        "pk": 29,
+        "fields": {
+            "name": "Roscoes Smoked BBQ",
+            "description": "Hickory smoked goodness (fresh meats!), freshly baked buns, freshly made sides",
+            "website_url": "http://www.roscoessmokedbbq.com/",
+            "instagram_url": "https://www.instagram.com/roscoessmokedbbq/?hl=en",
+            "profile_img_src": "https://scontent-atl3-2.xx.fbcdn.net/v/t1.6435-9/34305382_977577522417256_4864952272708173824_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=174925&_nc_ohc=1oUejtz4460AX8fXCSr&_nc_ht=scontent-atl3-2.xx&oh=00_AT-DPpV32yQIVd7shOHL8DNfnTCLl1shdYUEq7cCWEgTAw&oe=61F2E9DF",
+            "hours": "12pm-5pm",
+            "dollars": 2
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truck",
+        "pk": 30,
+        "fields": {
+            "name": "Adams Barbecue",
+            "description": "Specializing in brisket, ribs, pulled pork, and smoked wings, with signatures including candy bacon, bacon-wrapped potatoes, and the Grover Sandwich",
+            "website_url": "https://www.adamsbarbecue.com/",
+            "instagram_url": "https://www.instagram.com/adamsbarbecuetn/?hl=en",
+            "profile_img_src": "https://scontent-atl3-2.xx.fbcdn.net/v/t1.6435-9/79162030_2408386006079738_7571688010366844928_n.png?_nc_cat=108&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=NmH4hB52ydAAX9ZbW6Z&_nc_ht=scontent-atl3-2.xx&oh=00_AT_zH03LwRImXpmRj4iJgolkpj3-BlVDN3Ts2vrNBV0VYA&oe=61F2371E",
+            "hours": "11am-2pm",
+            "dollars": 2
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truck",
+        "pk": 31,
+        "fields": {
+            "name": "Firelime Offshore Grill",
+            "description": "Miami style tropical cuisine",
+            "website_url": "",
+            "instagram_url": "https://www.instagram.com/firelime_offshore_grill/?hl=en",
+            "profile_img_src": "https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-6/242939043_332877261921989_2861026027073605912_n.jpg?_nc_cat=105&_nc_rgb565=1&ccb=1-5&_nc_sid=174925&_nc_ohc=Y9NOx22hs4wAX98qk2E&tn=gC_ctWtken33D14b&_nc_ht=scontent-atl3-2.xx&oh=00_AT8QYuOkQWS10SVcC_tNU0KuW-soUPJySxMY9PRwfQ0RtA&oe=61CF93DD",
+            "hours": "11am-2pm",
+            "dollars": 1
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truck",
+        "pk": 32,
+        "fields": {
+            "name": "Snack Barr",
+            "description": "Fresh food from generational family recipes",
+            "website_url": "",
+            "instagram_url": "",
+            "facebook_url": "https://m.facebook.com/TheSnackBarrLLC/",
+            "twitter_url": "",
+            "profile_img_src": "https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-6/214346570_103857851967507_1770000758714050393_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=f0f1kp6WG-YAX9bgOLO&_nc_ht=scontent-atl3-2.xx&oh=00_AT8MZG0LzPFuqYkTojTAC2gxx7DTa1H4m4-8mcezNOMErg&oe=61CFFF30",
+            "hours": "5pm-11pm",
+            "dollars": 1
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truck",
+        "pk": 33,
+        "fields": {
+            "name": "Pop & Dogs",
+            "description": "All beef hot dogs. We also have Polish sausages, Cajun sausages, and Beer Brats.",
+            "website_url": "http://www.popanddogs.com/",
+            "instagram_url": "",
+            "facebook_url": "https://www.facebook.com/Popanddogs",
+            "twitter_url": "",
+            "profile_img_src": "https://scontent-atl3-2.xx.fbcdn.net/v/t1.6435-9/144276705_795096494769715_3214734127294147048_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=-m0RNUj1sJgAX8sYA1w&tn=gC_ctWtken33D14b&_nc_ht=scontent-atl3-2.xx&oh=00_AT8peS1oN6ZQkJJn5MRJIp2wGuG3A1Nj-cvW9Cfnd4q4cA&oe=61EFC8C7",
+            "hours": "11am-2pm",
+            "dollars": 2
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truck",
+        "pk": 34,
+        "fields": {
+            "name": "Buns On The Run",
+            "description": "All American cuisine from Angus Beef Burgers to delicious Vegetarian Burgers",
+            "website_url": "https://www.thebunsontherun.com/",
+            "instagram_url": "https://www.instagram.com/615bunsontherun/",
+            "facebook_url": "https://www.facebook.com/615BunsOnTheRunTN",
+            "twitter_url": "https://twitter.com/615bunsontherun",
+            "profile_img_src": "https://pbs.twimg.com/profile_images/378800000572812379/6be55cec3dede0a914e254a91be2367d_400x400.jpeg",
+            "hours": "7am-12pm",
+            "dollars": 2
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truck",
+        "pk": 35,
+        "fields": {
+            "name": "Chang Kham Asian Fusion",
+            "description": "Sushi, curry, and friend chicken wings",
+            "website_url": "",
+            "instagram_url": "https://www.instagram.com/changkhamasianfusion/?hl=en",
+            "facebook_url": "https://www.facebook.com/Chang-Kham-Asian-Fusion-Food-Truck-103258751964115/",
+            "twitter_url": "",
+            "profile_img_src": "https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-6/232360377_129877435968913_4511622158643318852_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=9BL2RfRBXoQAX8zWY6V&_nc_ht=scontent-atl3-2.xx&oh=00_AT_POGylhzQP4-uA2cR16keIcettm8Cdt8K4GCkD-WnN3w&oe=61D18F29",
+            "hours": "4pm-7pm",
+            "dollars": 3
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truck",
+        "pk": 36,
+        "fields": {
+            "name": "Good Bites",
+            "description": "A uniquely comforting food truck that offers a different spin on dishes from around the world.",
+            "website_url": "",
+            "instagram_url": "https://www.instagram.com/goodbites.gc/",
+            "facebook_url": "https://www.facebook.com/goodbites.gc/",
+            "twitter_url": "",
+            "profile_img_src": "https://scontent-atl3-2.xx.fbcdn.net/v/t1.6435-9/196203416_107091428284402_788283784118587034_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=qvMKv-8NFokAX-mXEyB&_nc_oc=AQlKH2etJiQr5NFW1B9666WjC1bhRrjhwP_vsY9VVpkb_ww_qphNF-5vHJ2LsAvapBYpWo_lojWryQXGr1cmyGE1&_nc_ht=scontent-atl3-2.xx&oh=00_AT_kh17luuxjEB6padDJ9fKxgEU-UAP1BHzbD86d642R0A&oe=61F086DA",
+            "hours": "11am-1pm",
+            "dollars": 2
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truck",
+        "pk": 37,
+        "fields": {
+            "name": "Hattie Jane's Creamery",
+            "description": "Small-batch, custard-based ice cream",
+            "website_url": "https://hattiejanescreamery.com/",
+            "instagram_url": "https://www.instagram.com/hattiejanescreamery/?hl=en",
+            "profile_img_src": "https://scontent-atl3-2.xx.fbcdn.net/v/t1.6435-9/70752499_2363135173954254_1448258252042141696_n.png?_nc_cat=109&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=UTiKUSfCIS0AX9CicSb&_nc_ht=scontent-atl3-2.xx&oh=00_AT_-koa2hJWHdcwDEIYYbYeKL_VwskYrusDTchYToJmtZA&oe=61F2B374",
+            "hours": "12pm-5pm",
+            "dollars": 1
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truck",
+        "pk": 38,
+        "fields": {
+            "name": "Haute Wheels",
+            "description": "Gourmet sandwich bus with an insane amount of options",
+            "website_url": "",
+            "instagram_url": "",
+            "facebook_url": "https://www.facebook.com/HauteWheelsLLC/",
+            "twitter_url": "https://mobile.twitter.com/hautewheelsco",
+            "profile_img_src": "https://scontent-atl3-2.xx.fbcdn.net/v/t1.6435-9/161770884_153307383326221_2299764699750270103_n.png?_nc_cat=108&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=I7aAOgxBHXEAX96NvZg&_nc_ht=scontent-atl3-2.xx&oh=00_AT9JB1Nv3NQcUdekWtsg7rrnJUy30f817JWeWbEuJXgF_w&oe=61EF6EA1",
+            "hours": "10am-2:30pm",
+            "dollars": 2
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truck",
+        "pk": 39,
+        "fields": {
+            "id": 39,
+            "name": "I Lovitt - Cheesecakes",
+            "description": "Baking the world a better place. Specializing in custom, made-with-love cheesecakes.",
+            "website_url": "https://ilovittcheesecakes.com/",
+            "instagram_url": "https://www.instagram.com/ilovittcheesecakes/?hl=en",
+            "profile_img_src": "https://scontent-atl3-2.xx.fbcdn.net/v/t1.6435-9/97992575_2283504245291663_6949278581239316480_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=whpau2T3Zk0AX_r7-Yk&_nc_ht=scontent-atl3-2.xx&oh=00_AT91i4SufTLUK56egtAUUlO-myBCBxlV6l3kxVTgnUVqNA&oe=61F15100",
+            "hours": "11am-4pm",
+            "dollars": 1
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truck",
+        "pk": 40,
+        "fields": {
+            "name": "Mojo Cookie Dough",
+            "description": "The ultimate cookie and ice cream experience! Made to order signatures or build your own masterpiece. Awesome soda floats, big scoops, popular flavors, and toppings.",
+            "website_url": "http://www.mojocookiedough.com/",
+            "instagram_url": "https://www.instagram.com/mojocookiedough/?hl=en",
+            "profile_img_src": "https://pbs.twimg.com/media/Cm369kVWYAAvZHP?format=jpg&name=large",
+            "hours": "11am-6pm",
+            "dollars": 2
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truck",
+        "pk": 41,
+        "fields": {
+            "name": "Pie Town Tacos",
+            "description": "Simple, delicious street tacos and sides.",
+            "website_url": "https://pietowntacos.com/",
+            "instagram_url": "https://www.facebook.com/pietowntacos",
+            "profile_img_src": "https://scontent-atl3-2.xx.fbcdn.net/v/t1.6435-9/105991463_159686155599534_2069819787073857078_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=Mwnr3AzLHx0AX_htZP2&_nc_ht=scontent-atl3-2.xx&oh=00_AT-A9LFtxaZfDTBdEywj8tZHV_8u4GLESZ2My9SuaxiMkA&oe=61EFF67F",
+            "hours": "10am-3pm",
+            "dollars": 1
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truck",
+        "pk": 42,
+        "fields": {
+            "name": "Peach Cobbler Factory",
+            "description": "Come to enjoy delicious cobbler, ice cream, cinnamon rolls, banana pudding desserts and most importantly... memories.",
+            "website_url": "https://www.peachcobblerfactory.com/",
+            "instagram_url": "https://www.instagram.com/peachcobblerfactory/",
+            "profile_img_src": "https://pbs.twimg.com/profile_images/849746065075060736/Sd6rJ1GV_400x400.jpg",
+            "hours": "10am-4pm",
+            "dollars": 3
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truck",
+        "pk": 43,
+        "fields": {
+            "name": "Tennessee Tatercakes",
+            "description": "Hand-pattied, panko-breaded, fried mashed potato cakes that are topped with slow smoked meats, cheeses, veggies, and various sauces. A fresh take on a southern staple!",
+            "website_url": "",
+            "instagram_url": "https://www.instagram.com/tennesseetatercakes/",
+            "facebook_url": "https://www.facebook.com/tennesseetatercakes",
+            "twitter_url": "",
+            "profile_img_src": "https://scontent-atl3-2.xx.fbcdn.net/v/t1.6435-9/60206395_2139314342805052_5527845956193615872_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=EtvMUpD-uIgAX-_4jhK&_nc_ht=scontent-atl3-2.xx&oh=00_AT_BmCVuobcPCz3FXzT9VtkqZfOF-taxcWGExcq1ZbeIzQ&oe=61F0DC40",
+            "hours": "11am-2pm",
+            "dollars": 2
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truck",
+        "pk": 44,
+        "fields": {
+            "name": "The Love Bus",
+            "description": "We fry, we smoke, we soul roll! We are southern fusion!",
+            "website_url": "http://www.lovebusnashville.com/",
+            "instagram_url": "https://www.instagram.com/lovebusfoodtruck/?hl=en",
+            "facebook_url": "https://www.facebook.com/lovebusfoodtruck",
+            "twitter_url": "https://twitter.com/lovebusfoodtruc",
+            "profile_img_src": "https://scontent-atl3-2.xx.fbcdn.net/v/t31.18172-8/10636734_1495397960788078_2815593679999649139_o.jpg?_nc_cat=101&ccb=1-5&_nc_sid=174925&_nc_ohc=nzYS-pFec4IAX--TLBI&_nc_ht=scontent-atl3-2.xx&oh=00_AT_Q7BPjkceP0_2cy6ZzVRS16heUBRipOkcsrRPcyS8wqQ&oe=61F2D5CA",
+            "hours": "11am-1pm",
+            "dollars": 1
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truck",
+        "pk": 45,
+        "fields": {
+            "name": "Whisk and the Whimsy",
+            "description": "Specialty cupcakes and cookies for all events.",
+            "website_url": "https://www.whiskandthewhimsy.com/",
+            "instagram_url": "https://www.instagram.com/whiskandwhimsycookies/?hl=en",
+            "profile_img_src": "https://scontent-atl3-2.xx.fbcdn.net/v/t1.6435-9/156837848_3805833716171055_7943071676693865582_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=l3sKxf4NqOEAX_Im1zg&_nc_ht=scontent-atl3-2.xx&oh=00_AT8wkDH2jNDQrrfLfALg042jE1rWu87X55MUwMlRgKDeTw&oe=61F0AF92",
+            "hours": "2pm-4pm",
+            "dollars": 3
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truck",
+        "pk": 46,
+        "fields": {
+            "name": "Wawa Expresso",
+            "description": "Lattes, cappuccinos, frozen coffee, iced coffee, coffee syrups, chai tea latte, iced tea, and hot tea. Out Coffee is 100% from Puerto Rico.",
+            "website_url": "",
+            "instagram_url": "https://www.instagram.com/wawaexpresso/?hl=en",
+            "facebook_url": "https://www.facebook.com/wawaexpresso/",
+            "twitter_url": "https://twitter.com/ExpressoWawa",
+            "profile_img_src": "https://pbs.twimg.com/profile_images/1255157834679017472/3SJL2whA_400x400.jpg",
+            "hours": "9:am-11:30am",
+            "dollars": 1
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truck",
+        "pk": 47,
+        "fields": {
+            "name": "Demo Truck",
+            "description": "We can prepare any food you can imagine!",
+            "website_url": "https://en.wikipedia.org/wiki/Imagination",
+            "instagram_url": "https://www.instagram.com/explore/tags/imagination/?hl=en",
+            "facebook_url": "",
+            "twitter_url": "https://twitter.com/imagination",
+            "profile_img_src": "https://media.istockphoto.com/vectors/food-truck-vector-id847893726?k=20&m=847893726&s=612x612&w=0&h=8FXUDGZvXpdcOWn-0DlCh5NmyfozQghAqVdyEo-fv3Y=",
+            "hours": "9am-9pm",
             "dollars": 1
         }
     }

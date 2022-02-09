@@ -1,0 +1,354 @@
+[
+    {
+        "model": "foodtruckfinderapi.truckowner",
+        "pk": 1,
+        "fields": {
+            "user_account": 6,
+            "truck": 1
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckowner",
+        "pk": 2,
+        "fields": {
+            "user_account": 6,
+            "truck": 2
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckowner",
+        "pk": 3,
+        "fields": {
+            "user_account": 6,
+            "truck": 3
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckowner",
+        "pk": 4,
+        "fields": {
+            "user_account": 6,
+            "truck": 4
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckowner",
+        "pk": 5,
+        "fields": {
+            "user_account": 6,
+            "truck": 5
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckowner",
+        "pk": 6,
+        "fields": {
+            "user_account": 6,
+            "truck": 6
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckowner",
+        "pk": 8,
+        "fields": {
+            "user_account": 6,
+            "truck": 8
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckowner",
+        "pk": 11,
+        "fields": {
+            "user_account": 6,
+            "truck": 11
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckowner",
+        "pk": 12,
+        "fields": {
+            "user_account": 6,
+            "truck": 12
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckowner",
+        "pk": 13,
+        "fields": {
+            "user_account": 6,
+            "truck": 13
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckowner",
+        "pk": 14,
+        "fields": {
+            "user_account": 6,
+            "truck": 14
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckowner",
+        "pk": 15,
+        "fields": {
+            "user_account": 6,
+            "truck": 15
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckowner",
+        "pk": 16,
+        "fields": {
+            "user_account": 6,
+            "truck": 16
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckowner",
+        "pk": 17,
+        "fields": {
+            "user_account": 6,
+            "truck": 17
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckowner",
+        "pk": 18,
+        "fields": {
+            "user_account": 6,
+            "truck": 18
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckowner",
+        "pk": 19,
+        "fields": {
+            "user_account": 6,
+            "truck": 19
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckowner",
+        "pk": 20,
+        "fields": {
+            "user_account": 6,
+            "truck": 20
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckowner",
+        "pk": 21,
+        "fields": {
+            "user_account": 6,
+            "truck": 21
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckowner",
+        "pk": 22,
+        "fields": {
+            "user_account": 6,
+            "truck": 22
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckowner",
+        "pk": 23,
+        "fields": {
+            "user_account": 6,
+            "truck": 23
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckowner",
+        "pk": 24,
+        "fields": {
+            "user_account": 6,
+            "truck": 24
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckowner",
+        "pk": 25,
+        "fields": {
+            "user_account": 6,
+            "truck": 25
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckowner",
+        "pk": 26,
+        "fields": {
+            "user_account": 6,
+            "truck": 26
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckowner",
+        "pk": 27,
+        "fields": {
+            "user_account": 6,
+            "truck": 27
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckowner",
+        "pk": 28,
+        "fields": {
+            "user_account": 6,
+            "truck": 28
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckowner",
+        "pk": 29,
+        "fields": {
+            "user_account": 6,
+            "truck": 29
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckowner",
+        "pk": 30,
+        "fields": {
+            "user_account": 6,
+            "truck": 30
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckowner",
+        "pk": 31,
+        "fields": {
+            "user_account": 6,
+            "truck": 31
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckowner",
+        "pk": 32,
+        "fields": {
+            "user_account": 6,
+            "truck": 32
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckowner",
+        "pk": 33,
+        "fields": {
+            "user_account": 6,
+            "truck": 33
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckowner",
+        "pk": 34,
+        "fields": {
+            "user_account": 6,
+            "truck": 34
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckowner",
+        "pk": 35,
+        "fields": {
+            "user_account": 6,
+            "truck": 35
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckowner",
+        "pk": 36,
+        "fields": {
+            "user_account": 6,
+            "truck": 36
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckowner",
+        "pk": 37,
+        "fields": {
+            "user_account": 6,
+            "truck": 37
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckowner",
+        "pk": 38,
+        "fields": {
+            "user_account": 6,
+            "truck": 38
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckowner",
+        "pk": 39,
+        "fields": {
+            "user_account": 6,
+            "truck": 39
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckowner",
+        "pk": 40,
+        "fields": {
+            "user_account": 6,
+            "truck": 40
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckowner",
+        "pk": 41,
+        "fields": {
+            "user_account": 6,
+            "truck": 41
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckowner",
+        "pk": 42,
+        "fields": {
+            "user_account": 6,
+            "truck": 42
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckowner",
+        "pk": 43,
+        "fields": {
+            "user_account": 6,
+            "truck": 43
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckowner",
+        "pk": 44,
+        "fields": {
+            "user_account": 6,
+            "truck": 44
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckowner",
+        "pk": 45,
+        "fields": {
+            "user_account": 6,
+            "truck": 45
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckowner",
+        "pk": 46,
+        "fields": {
+            "user_account": 6,
+            "truck": 46
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.truckowner",
+        "pk": 47,
+        "fields": {
+            "user_account": 12,
+            "truck": 47
+        }
+    }
+]

@@ -1,0 +1,254 @@
+[
+    {
+        "model": "foodtruckfinderapi.trucklocation",
+        "pk": 1,
+        "fields": {
+            "neighborhood": 3,
+            "truck": 1,
+            "day": 1
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.trucklocation",
+        "pk": 2,
+        "fields": {
+            "neighborhood": 2,
+            "truck": 1,
+            "day": 2
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.trucklocation",
+        "pk": 3,
+        "fields": {
+            "neighborhood": 3,
+            "truck": 1,
+            "day": 3
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.trucklocation",
+        "pk": 4,
+        "fields": {
+            "neighborhood": 4,
+            "truck": 1,
+            "day": 4
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.trucklocation",
+        "pk": 5,
+        "fields": {
+            "neighborhood": 5,
+            "truck": 1,
+            "day": 5
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.trucklocation",
+        "pk": 6,
+        "fields": {
+            "neighborhood": 6,
+            "truck": 1,
+            "day": 6
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.trucklocation",
+        "pk": 7,
+        "fields": {
+            "neighborhood": 2,
+            "truck": 1,
+            "day": 7
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.trucklocation",
+        "pk": 8,
+        "fields": {
+            "neighborhood": 3,
+            "truck": 2,
+            "day": 1
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.trucklocation",
+        "pk": 9,
+        "fields": {
+            "neighborhood": 2,
+            "truck": 2,
+            "day": 2
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.trucklocation",
+        "pk": 10,
+        "fields": {
+            "neighborhood": 3,
+            "truck": 2,
+            "day": 3
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.trucklocation",
+        "pk": 11,
+        "fields": {
+            "neighborhood": 4,
+            "truck": 2,
+            "day": 4
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.trucklocation",
+        "pk": 12,
+        "fields": {
+            "neighborhood": 5,
+            "truck": 2,
+            "day": 5
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.trucklocation",
+        "pk": 13,
+        "fields": {
+            "neighborhood": 6,
+            "truck": 2,
+            "day": 6
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.trucklocation",
+        "pk": 14,
+        "fields": {
+            "neighborhood": 2,
+            "truck": 2,
+            "day": 7
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.trucklocation",
+        "pk": 15,
+        "fields": {
+            "neighborhood": 3,
+            "truck": 3,
+            "day": 1
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.trucklocation",
+        "pk": 16,
+        "fields": {
+            "neighborhood": 2,
+            "truck": 3,
+            "day": 2
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.trucklocation",
+        "pk": 17,
+        "fields": {
+            "neighborhood": 3,
+            "truck": 3,
+            "day": 3
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.trucklocation",
+        "pk": 18,
+        "fields": {
+            "neighborhood": 4,
+            "truck": 3,
+            "day": 4
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.trucklocation",
+        "pk": 19,
+        "fields": {
+            "neighborhood": 5,
+            "truck": 3,
+            "day": 5
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.trucklocation",
+        "pk": 20,
+        "fields": {
+            "neighborhood": 6,
+            "truck": 3,
+            "day": 6
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.trucklocation",
+        "pk": 21,
+        "fields": {
+            "neighborhood": 2,
+            "truck": 3,
+            "day": 7
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.trucklocation",
+        "pk": 22,
+        "fields": {
+            "neighborhood": 3,
+            "truck": 4,
+            "day": 1
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.trucklocation",
+        "pk": 23,
+        "fields": {
+            "neighborhood": 2,
+            "truck": 4,
+            "day": 2
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.trucklocation",
+        "pk": 24,
+        "fields": {
+            "neighborhood": 3,
+            "truck": 4,
+            "day": 3
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.trucklocation",
+        "pk": 25,
+        "fields": {
+            "neighborhood": 4,
+            "truck": 4,
+            "day": 4
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.trucklocation",
+        "pk": 26,
+        "fields": {
+            "neighborhood": 5,
+            "truck": 4,
+            "day": 5
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.trucklocation",
+        "pk": 27,
+        "fields": {
+            "neighborhood": 6,
+            "truck": 4,
+            "day": 6
+        }
+    },
+    {
+        "model": "foodtruckfinderapi.trucklocation",
+        "pk": 28,
+        "fields": {
+            "neighborhood": 2,
+            "truck": 4,
+            "day": 7
+        }
+    }
+]

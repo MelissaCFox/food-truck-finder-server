@@ -1,6 +1,6 @@
 [
     {
-        "model": "foodtruckfinderapi.usertruckfavorites",
+        "model": "foodtruckfinderapi.usertruckfavorite",
         "pk": 1,
         "fields": {
             "user_account": 11,
@@ -8,7 +8,7 @@
         }
     },
     {
-        "model": "foodtruckfinderapi.usertruckfavorites",
+        "model": "foodtruckfinderapi.usertruckfavorite",
         "pk": 2,
         "fields": {
             "user_account": 1,
@@ -16,7 +16,7 @@
         }
     },
     {
-        "model": "foodtruckfinderapi.usertruckfavorites",
+        "model": "foodtruckfinderapi.usertruckfavorite",
         "pk": 3,
         "fields": {
             "user_account": 1,
@@ -24,7 +24,7 @@
         }
     },
     {
-        "model": "foodtruckfinderapi.usertruckfavorites",
+        "model": "foodtruckfinderapi.usertruckfavorite",
         "pk": 4,
         "fields": {
             "user_account": 12,
@@ -32,7 +32,7 @@
         }
     },
     {
-        "model": "foodtruckfinderapi.usertruckfavorites",
+        "model": "foodtruckfinderapi.usertruckfavorite",
         "pk": 5,
         "fields": {
             "user_account": 13,
@@ -40,7 +40,7 @@
         }
     },
     {
-        "model": "foodtruckfinderapi.usertruckfavorites",
+        "model": "foodtruckfinderapi.usertruckfavorite",
         "pk": 6,
         "fields": {
             "user_account": 12,
@@ -48,7 +48,7 @@
         }
     },
     {
-        "model": "foodtruckfinderapi.usertruckfavorites",
+        "model": "foodtruckfinderapi.usertruckfavorite",
         "pk": 7,
         "fields": {
             "user_account": 1,
@@ -56,7 +56,7 @@
         }
     },
     {
-        "model": "foodtruckfinderapi.usertruckfavorites",
+        "model": "foodtruckfinderapi.usertruckfavorite",
         "pk": 8,
         "fields": {
             "user_account": 12,
@@ -64,7 +64,7 @@
         }
     },
     {
-        "model": "foodtruckfinderapi.usertruckfavorites",
+        "model": "foodtruckfinderapi.usertruckfavorite",
         "pk": 9,
         "fields": {
             "user_account": 13,
@@ -72,7 +72,7 @@
         }
     },
     {
-        "model": "foodtruckfinderapi.usertruckfavorites",
+        "model": "foodtruckfinderapi.usertruckfavorite",
         "pk": 10,
         "fields": {
             "user_account": 12,
@@ -80,7 +80,7 @@
         }
     },
     {
-        "model": "foodtruckfinderapi.usertruckfavorites",
+        "model": "foodtruckfinderapi.usertruckfavorite",
         "pk": 11,
         "fields": {
             "user_account": 12,
@@ -88,7 +88,7 @@
         }
     },
     {
-        "model": "foodtruckfinderapi.usertruckfavorites",
+        "model": "foodtruckfinderapi.usertruckfavorite",
         "pk": 12,
         "fields": {
             "user_account": 6,
@@ -96,7 +96,7 @@
         }
     },
     {
-        "model": "foodtruckfinderapi.usertruckfavorites",
+        "model": "foodtruckfinderapi.usertruckfavorite",
         "pk": 13,
         "fields": {
             "user_account": 6,
@@ -104,7 +104,7 @@
         }
     },
     {
-        "model": "foodtruckfinderapi.usertruckfavorites",
+        "model": "foodtruckfinderapi.usertruckfavorite",
         "pk": 14,
         "fields": {
             "user_account": 6,
@@ -112,7 +112,7 @@
         }
     },
     {
-        "model": "foodtruckfinderapi.usertruckfavorites",
+        "model": "foodtruckfinderapi.usertruckfavorite",
         "pk": 15,
         "fields": {
             "user_account": 14,
@@ -120,7 +120,7 @@
         }
     },
     {
-        "model": "foodtruckfinderapi.usertruckfavorites",
+        "model": "foodtruckfinderapi.usertruckfavorite",
         "pk": 16,
         "fields": {
             "user_account": 2,
@@ -128,7 +128,7 @@
         }
     },
     {
-        "model": "foodtruckfinderapi.usertruckfavorites",
+        "model": "foodtruckfinderapi.usertruckfavorite",
         "pk": 17,
         "fields": {
             "user_account": 2,
@@ -136,7 +136,7 @@
         }
     },
     {
-        "model": "foodtruckfinderapi.usertruckfavorites",
+        "model": "foodtruckfinderapi.usertruckfavorite",
         "pk": 18,
         "fields": {
             "user_account": 2,
@@ -144,7 +144,7 @@
         }
     },
     {
-        "model": "foodtruckfinderapi.usertruckfavorites",
+        "model": "foodtruckfinderapi.usertruckfavorite",
         "pk": 19,
         "fields": {
             "user_account": 13,

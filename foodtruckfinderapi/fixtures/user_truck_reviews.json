@@ -6,7 +6,7 @@
             "user_account": 2,
             "truck": 1,
             "review": "So delicious and super fast service!",
-            "date": "12/04/2021",
+            "date": "2021-12-04",
             "rating": 5,
             "anonymous": false
         }
@@ -18,7 +18,7 @@
             "truck": 3,
             "user_account": 3,
             "review": "MMM. Wow, I love this shaved ice so much! Reminds me of my trip to Maui",
-            "date": "1/07/2020",
+            "date": "2020-01-07",
             "rating": 5,
             "anonymous": false
         }
@@ -30,7 +30,7 @@
             "user_account": 7,
             "truck": 12,
             "review": "Delicioso! Will definitely be back in the future!",
-            "date": "12/13/2021",
+            "date": "2021-12-13",
             "rating": 5,
             "anonymous": false
         }
@@ -42,7 +42,7 @@
             "user_account": 10,
             "truck": 4,
             "review": "Tastes just like Maine!",
-            "date": "12/08/2021",
+            "date": "2021-12-08",
             "rating": 5,
             "anonymous": false
         }
@@ -54,7 +54,7 @@
             "user_account": 11,
             "truck": 3,
             "review": "So good! Lots of great flavor options.",
-            "date": "5/24/2021",
+            "date": "2021-05-24",
             "anonymous": false,
             "rating": 4
         }
@@ -66,7 +66,7 @@
             "user_account": 5,
             "truck": 3,
             "review": "Service was kind of slow but the shaved ice had a great texture and tested really good.",
-            "date": "8/12/2021",
+            "date": "2021-08-12",
             "anonymous": true,
             "rating": 4
         }
@@ -78,7 +78,7 @@
             "user_account": 3,
             "truck": 3,
             "review": "Perfect afternoon treat!",
-            "date": "9/15/2021",
+            "date": "2021-09-15",
             "anonymous": true,
             "rating": 5
         }
@@ -90,7 +90,7 @@
             "user_account": 7,
             "truck": 12,
             "review": "Good. They could give Voodoo Donuts a run for their money.",
-            "date": "11/24/2021",
+            "date": "2021-11-24",
             "anonymous": false,
             "rating": 4
         }
@@ -102,7 +102,7 @@
             "user_account": 9,
             "truck": 11,
             "review": "Can't go wrong with crepes! Delicious!",
-            "date": "12/14/2021",
+            "date": "2021-12-14",
             "anonymous": false,
             "rating": 5
         }
@@ -114,7 +114,7 @@
             "user_account": 2,
             "truck": 4,
             "review": "Kinda expensive and the tots were cold...",
-            "date": "1/11/2022",
+            "date": "2022-01-11",
             "anonymous": true,
             "rating": 2
         }
@@ -126,7 +126,7 @@
             "user_account": 8,
             "truck": 25,
             "review": "Great service and tasted great!",
-            "date": "12/23/2021",
+            "date": "2021-12-23",
             "anonymous": false,
             "rating": 4
         }
@@ -138,7 +138,7 @@
             "user_account": 3,
             "truck": 28,
             "review": "Stumbled on these guys while wandering around The Nations last weekend, what an awesome surprise!",
-            "date": "12/12/2021",
+            "date": "2021-12-12",
             "anonymous": false,
             "rating": 4
         }
@@ -150,7 +150,7 @@
             "user_account": 14,
             "truck": 24,
             "review": "These guys have some of the best BBQ around.",
-            "date": "12/4/2021",
+            "date": "2021-12-04",
             "anonymous": false,
             "rating": 4
         }
@@ -162,7 +162,7 @@
             "user_account": 7,
             "truck": 24,
             "review": "Eh, the flavors weren't quite there... not my thing.",
-            "date": "11/11/2021",
+            "date": "2021-11-11",
             "anonymous": true,
             "rating": 2
         }
@@ -174,7 +174,7 @@
             "user_account": 4,
             "truck": 1,
             "review": "I've only been to their permanent place in Hillsboro but I'd image their truck is just as great! Grilled cheese is a simple recipe but they do it oh so well!",
-            "date": "8/13/2021",
+            "date": "2021-08-13",
             "anonymous": false,
             "rating": 4
         }
@@ -186,7 +186,7 @@
             "user_account": 9,
             "truck": 16,
             "review": "A great option for lunch - be sure to check them out if you see them in the area!",
-            "date": "6/10/2021",
+            "date": "2021-06-21",
             "anonymous": false,
             "rating": 4
         }
@@ -198,7 +198,7 @@
             "user_account": 10,
             "truck": 16,
             "review": "So good! Instantly brought back memories of my trip to Medellín a couple years ago :)",
-            "date": "3/10/2021",
+            "date": "2021-03-10",
             "anonymous": false,
             "rating": 4
         }
@@ -210,7 +210,7 @@
             "user_account": 11,
             "truck": 27,
             "review": "Not revolutionary or anything but a cool twist on a southern staple.",
-            "date": "6/15/2021",
+            "date": "2021-06-15",
             "anonymous": false,
             "rating": 3
         }
@@ -222,7 +222,7 @@
             "user_account": 14,
             "truck": 37,
             "review": "Love love love frozen custard!",
-            "date": "8/11/2021",
+            "date": "2021-08-11",
             "anonymous": false,
             "rating": 5
         }
@@ -234,7 +234,7 @@
             "user_account": 2,
             "truck": 13,
             "review": "Flavors were perfect! *chefs kiss*",
-            "date": "10/15/2021",
+            "date": "2021-10-15",
             "anonymous": false,
             "rating": 5
         }
@@ -246,7 +246,7 @@
             "user_account": 3,
             "truck": 41,
             "review": "Awesome tacos at a great price!",
-            "date": "1/4/2022",
+            "date": "2022-01-04",
             "anonymous": false,
             "rating": 4
         }
@@ -258,7 +258,7 @@
             "user_account": 4,
             "truck": 40,
             "review": "A little pricey but worth the splurge for fans of cookie dough",
-            "date": "10/7/2021",
+            "date": "2021-10-07",
             "anonymous": false,
             "rating": 4
         }
@@ -270,7 +270,7 @@
             "user_account": 5,
             "truck": 40,
             "review": "We had Mojo come to our daughter's birthday party and they were a huge hit with everyone.",
-            "date": "8/9/2021",
+            "date": "2021-08-09",
             "anonymous": false,
             "rating": 4
         }
@@ -282,7 +282,7 @@
             "user_account": 11,
             "truck": 29,
             "review": "Roscoe's catered one of our work lunches and it was delicious!",
-            "date": "8/10/2021",
+            "date": "2021-08-10",
             "anonymous": false,
             "rating": 4
         }
@@ -294,7 +294,7 @@
             "user_account": 7,
             "truck": 2,
             "review": "Love these dudes, they run a cool truck.",
-            "date": "8/12/2021",
+            "date": "2021-08-12",
             "anonymous": false,
             "rating": 4
         }
@@ -306,7 +306,7 @@
             "user_account": 8,
             "truck": 15,
             "review": "Not quite true New York style pizza but it's one of the better attempts that I've had.",
-            "date": "7/10/2021",
+            "date": "2021-07-12",
             "anonymous": true,
             "rating": 3
         }
@@ -318,7 +318,7 @@
             "user_account": 9,
             "truck": 31,
             "review": "Nice flavors - definitely reminiscent of Miami vibes.",
-            "date": "10/7/2021",
+            "date": "2021-10-07",
             "anonymous": false,
             "rating": 4
         }
@@ -330,7 +330,7 @@
             "user_account": 10,
             "truck": 30,
             "review": "The bacon-wrapped potatoes are BOMB",
-            "date": "11/16/2021",
+            "date": "2021-11-16",
             "anonymous": false,
             "rating": 5
         }
@@ -342,7 +342,7 @@
             "user_account": 14,
             "truck": 30,
             "review": "Super long line when I went but their food tasted good.",
-            "date": "12/13/2021",
+            "date": "2012-10-13",
             "anonymous": false,
             "rating": 3
         }
@@ -354,7 +354,7 @@
             "user_account": 8,
             "truck": 30,
             "review": "Definitely try the Grover Sandwich!",
-            "date": "12/9/2021",
+            "date": "2021-12-09",
             "anonymous": false,
             "rating": 5
         }
@@ -366,7 +366,7 @@
             "user_account": 3,
             "truck": 39,
             "review": "Their cheesecakes are always soooo gooood.",
-            "date": "4/6/2021",
+            "date": "2021-04-06",
             "anonymous": false,
             "rating": 4
         }
@@ -378,7 +378,7 @@
             "user_account": 2,
             "truck": 19,
             "review": "Pizza and ice cream - can't go wrong with that combo!",
-            "date": "8/12/2021",
+            "date": "2021-08-12",
             "anonymous": false,
             "rating": 4
         }
@@ -390,7 +390,7 @@
             "user_account": 5,
             "truck": 19,
             "review": "Solid.",
-            "date": "3/3/2021",
+            "date": "2021-03-21",
             "anonymous": false,
             "rating": 4
         }
@@ -402,7 +402,7 @@
             "user_account": 9,
             "truck": 19,
             "review": "The guy at the window was full of jokes today, fun lunch",
-            "date": "1/17/2021",
+            "date": "2021-01-17",
             "anonymous": false,
             "rating": 3
         }
@@ -414,7 +414,7 @@
             "user_account": 10,
             "truck": 42,
             "review": "Saw these guys in Berry Hill the other day. We stopped for dessert after dinner with the kids - a nice way to end the night.",
-            "date": "9/10/2021",
+            "date": "2021-09-17",
             "anonymous": false,
             "rating": 4
         }
@@ -426,7 +426,7 @@
             "user_account": 14,
             "truck": 6,
             "review": "Their poke bowls were pretty good.",
-            "date": "1/5/2022",
+            "date": "2022-01-05",
             "anonymous": false,
             "rating": 3
         }
@@ -438,7 +438,7 @@
             "user_account": 4,
             "truck": 6,
             "review": "Love these guys",
-            "date": "12/8/2021",
+            "date": "2021-12-08",
             "anonymous": false,
             "rating": 4
         }
@@ -450,7 +450,7 @@
             "user_account": 7,
             "truck": 45,
             "review": "Too expensive, not worth it.",
-            "date": "1/3/2022",
+            "date": "2022-01-03",
             "anonymous": true,
             "rating": 1
         }
@@ -462,7 +462,7 @@
             "user_account": 8,
             "truck": 45,
             "review": "Pricey, but the kids loved them. Not sure if we will have them cater again though just because of the price though..",
-            "date": "11/2/2021",
+            "date": "2021-11-02",
             "anonymous": true,
             "rating": 3
         }
@@ -474,7 +474,7 @@
             "user_account": 2,
             "truck": 45,
             "review": "The girls here do an awesome job!",
-            "date": "1/5/2022",
+            "date": "2022-01-15",
             "anonymous": true,
             "rating": 4
         }
@@ -486,7 +486,7 @@
             "user_account": 1,
             "truck": 1,
             "review": "One of my favorite spots.",
-            "date": "10/5/2021",
+            "date": "2021-10-05",
             "anonymous": true,
             "rating": 4
         }
