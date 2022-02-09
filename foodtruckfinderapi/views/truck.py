@@ -1,10 +1,8 @@
 from django.core.exceptions import ValidationError
-from django.http import HttpResponseServerError
-from platformdirs import user_cache_dir
 from rest_framework.viewsets import ViewSet
 from rest_framework.response import Response
 from rest_framework import serializers, status
-from foodtruckfinderapi.models import (Truck, UserAccount, UserTruckFavorite, TruckOwner)
+from foodtruckfinderapi.models import (Truck, UserAccount)
 
 
 
