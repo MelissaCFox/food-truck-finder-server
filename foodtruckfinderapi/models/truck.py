@@ -16,6 +16,8 @@ class Truck(models.Model):
     food_types = models.ManyToManyField("FoodType", through="TruckFoodType", related_name="trucks")
     owners = models.ManyToManyField("UserAccount", through="TruckOwner",
                                     related_name="trucks_owned")
+    favorites = models.ManyToManyField("UserAccount", through="UserTruckFavorite", 
+                                       related_name="favorite_trucks")
 
 
 

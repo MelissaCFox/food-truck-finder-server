@@ -20,7 +20,7 @@ from django.conf.urls.static import static
 from django.urls import path
 from rest_framework import routers
 from foodtruckfinderapi.views import (register_user, login_user, FoodTypeView, DayView, NeighborhoodView,
-                                      TruckFoodTypeView, TruckLocationView)
+                                      TruckFoodTypeView, TruckLocationView, TruckView)
 
 router = routers.DefaultRouter(trailing_slash=False)
 router.register(r'foodtypes', FoodTypeView, 'foodtype')
@@ -28,6 +28,7 @@ router.register(r'days', DayView, 'day')
 router.register(r'neighborhoods', NeighborhoodView, 'neighborhood')
 router.register(r'truckfoodtypes', TruckFoodTypeView, 'truckfoodtype')
 router.register(r'trucklocations', TruckLocationView, 'trucklocation')
+router.register(r'trucks', TruckView, 'truck')
 
 urlpatterns = [
     path('', include(router.urls)),

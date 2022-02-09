@@ -4,3 +4,4 @@ from .day import DayView
 from .neighborhood import NeighborhoodView
 from .truck_food_type import TruckFoodTypeView
 from .truck_location import TruckLocationView
+from .truck import TruckView
