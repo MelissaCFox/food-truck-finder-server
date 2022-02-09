@@ -17,6 +17,11 @@ class TruckView(ViewSet):
             Response: JSON serialized list of truck instances
         """
         trucks=Truck.objects.all()
+        user_account = UserAccount.objects.get(pk = request.auth.user.id)
+        ## set custom favorite and owner properties (booleans)
+        for truck in trucks:
+            truck.owner = user_account in truck.owners.all()
+            truck.favorite = user_account in truck.favorites.all()
 
         serializer=TruckSerializer(trucks, many=True)
         return Response(serializer.data)
@@ -31,7 +36,7 @@ class TruckView(ViewSet):
         try:
             truck=Truck.objects.get(pk=pk)
             user_account = UserAccount.objects.get(pk = request.auth.user.id)
-            
+            ## set custom favorite and owner properties (booleans)
             truck.owner = user_account in truck.owners.all()
             truck.favorite = user_account in truck.favorites.all()
 
@@ -59,8 +64,10 @@ class TruckView(ViewSet):
             dollars = request.data['dollars'],
         )
 
+
         try:
             truck.save()
+            truck.food_types.set(request.data['foodTypes'])
             serializer = TruckSerializer(truck, context={'request': request})
             return Response(serializer.data, status=status.HTTP_201_CREATED)
         except ValidationError as ex:
@@ -75,17 +82,20 @@ class TruckView(ViewSet):
         """
         try:
             truck = Truck.objects.get(pk=pk)
-            truck.name = request.data['name'],
-            truck.description = request.data['description'],
-            truck.website_url = request.data['websiteURL'],
-            truck.facebook_url = request.data['facebookURL'],
-            truck.instagram_url = request.data['instagramURL'],
-            truck.twitter_url = request.data['twitterURL'],
-            truck.profile_img_src = request.data['profileImgSrc'],
-            truck.hours = request.data['hours'],
-            truck.dollars = request.data['dollars'],
+            truck.name = request.data['name']
+            truck.description = request.data['description']
+            truck.website_url = request.data['websiteURL']
+            truck.facebook_url = request.data['facebookURL']
+            truck.instagram_url = request.data['instagramURL']
+            truck.twitter_url = request.data['twitterURL']
+            truck.profile_img_src = request.data['profileImgSrc']
+            truck.hours = request.data['hours']
+            truck.dollars = request.data['dollars']
 
             truck.save()
+            
+            truck.food_types.set(request.data['foodTypes'])
+            
             serializer = TruckSerializer(truck)
             return Response(serializer.data, status=status.HTTP_204_NO_CONTENT)
         except Truck.DoesNotExist as ex:
