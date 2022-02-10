@@ -9,7 +9,7 @@ class Truck(models.Model):
     facebook_url = models.TextField(default="")
     instagram_url = models.TextField(default="")
     twitter_url = models.TextField(default="")
-    profile_img_src = models.ImageField()
+    profile_img_src = models.TextField()
     hours = models.CharField(max_length=55)
     dollars = models.IntegerField()
 

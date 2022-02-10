@@ -2,7 +2,9 @@ from django.core.exceptions import ValidationError
 from rest_framework.viewsets import ViewSet
 from rest_framework.response import Response
 from rest_framework import serializers, status
+from django.db.models import Q
 from foodtruckfinderapi.models import UserTruckFavorite, Truck, UserAccount
+from foodtruckfinderapi.views.truck import TruckSerializer
 
 
 class UserTruckFavoriteView(ViewSet):
@@ -12,8 +14,13 @@ class UserTruckFavoriteView(ViewSet):
 
         Returns:
             Response: JSON serialized list of user_truck_favorite instances
+            specific to currently logged in user
         """
-        favorites=UserTruckFavorite.objects.all()
+        user_account = UserAccount.objects.get(pk=request.auth.user.id)
+        favorites=UserTruckFavorite.objects.filter(
+            Q(user_account=user_account)
+        )
+        
 
         serializer=UserTruckFavoriteSerializer(favorites, many=True)
         return Response(serializer.data)
@@ -27,6 +34,7 @@ class UserTruckFavoriteView(ViewSet):
         """
         try:
             user_truck_favorite=UserTruckFavorite.objects.get(pk=pk)
+
             serializer = UserTruckFavoriteSerializer(user_truck_favorite)
             return Response(serializer.data)
         except UserTruckFavorite.DoesNotExist as ex:
@@ -67,6 +75,7 @@ class UserTruckFavoriteView(ViewSet):
 
 
 class UserTruckFavoriteSerializer(serializers.ModelSerializer):
+    truck = TruckSerializer()
 
     class Meta:
         model = UserTruckFavorite

@@ -28,7 +28,8 @@ def login_user(request):
         token = Token.objects.get(user=authenticated_user)
         data = {
             'valid': True,
-            'token': token.key
+            'token': token.key,
+            'user_id': authenticated_user.id
         }
         return Response(data)
     else:
@@ -50,12 +51,12 @@ def register_user(request):
     new_user = User.objects.create_user(
         username=request.data['username'],
         password=request.data['password'],
-        first_name=request.data['first_name'],
-        last_name=request.data['last_name'],
+        first_name=request.data['firstName'],
+        last_name=request.data['lastName'],
         email=request.data['email']
     )
 
-    # Now save the extra info in the levelupapi_gamer table
+    # Now save the extra info in the foodtruckfinderapi_useraccount table
     user_account = UserAccount.objects.create(
         owner=request.data['owner'],
         user=new_user
@@ -64,5 +65,8 @@ def register_user(request):
     # Use the REST Framework's token generator on the new user account
     token = Token.objects.create(user=user_account.user)
     # Return the token to the client
-    data = { 'token': token.key }
+    data = {
+            'token': token.key,
+            'user_id': user_account.id
+        }
     return Response(data)

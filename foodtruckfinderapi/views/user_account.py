@@ -3,6 +3,8 @@ from rest_framework.viewsets import ViewSet
 from rest_framework.response import Response
 from rest_framework import serializers, status
 from foodtruckfinderapi.models import UserAccount
+from foodtruckfinderapi.views.truck import TruckSerializer
+from foodtruckfinderapi.views.user_truck_favorite import UserTruckFavoriteSerializer
 
 
 class UserAccountView(ViewSet):
@@ -34,8 +36,9 @@ class UserAccountView(ViewSet):
 
 
 class UserAccountSerializer(serializers.ModelSerializer):
+    favorites = UserTruckFavoriteSerializer(many=True)
 
     class Meta:
         model = UserAccount
         fields = ('id', 'user', 'owner', 'favorites', 'reviews', 'trucks')
-        depth = 1
+        depth = 2
