@@ -3,6 +3,7 @@ from rest_framework.viewsets import ViewSet
 from rest_framework.response import Response
 from rest_framework import serializers, status
 from foodtruckfinderapi.models import (Truck, UserAccount)
+from foodtruckfinderapi.views.user_truck_review import UserTruckReviewSerializer
 
 
 
@@ -37,6 +38,9 @@ class TruckView(ViewSet):
             ## set custom favorite and owner properties (booleans)
             truck.owner = user_account in truck.owners.all()
             truck.favorite = user_account in truck.favorites.all()
+
+            for review in truck.reviews.all():
+                review.author = review.user_account == user_account
 
             serializer = TruckSerializer(truck)
             return Response(serializer.data)
@@ -118,9 +122,11 @@ class TruckView(ViewSet):
 
 class TruckSerializer(serializers.ModelSerializer):
 
+    reviews = UserTruckReviewSerializer(many=True)
+
     class Meta:
         model = Truck
         fields = ('id', 'name','description', 'website_url', 'facebook_url', 'instagram_url',
                   'twitter_url', 'profile_img_src', 'hours', 'dollars',
                   'food_types', 'favorite', 'owner', 'user_rating', 'suggestions', 'reviews')
-        depth = 1
+        depth = 3

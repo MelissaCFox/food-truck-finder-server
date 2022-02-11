@@ -1,5 +1,6 @@
-Select * from foodtruckfinderapi_truckfoodtype
-Order By truck_id
+UPDATE foodtruckfinderapi_neighborhood
+set name = "Germantown"
+where id = 5
 
 
 

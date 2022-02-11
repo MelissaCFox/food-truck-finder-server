@@ -3,8 +3,8 @@ from django.http import HttpResponseServerError
 from rest_framework.viewsets import ViewSet
 from rest_framework.response import Response
 from rest_framework import serializers, status
+from django.db.models import Q
 from foodtruckfinderapi.models import TruckLocation
-from foodtruckfinderapi.models import truck
 from foodtruckfinderapi.models.day import Day
 from foodtruckfinderapi.models.neighborhood import Neighborhood
 from foodtruckfinderapi.models.truck import Truck
@@ -18,7 +18,20 @@ class TruckLocationView(ViewSet):
         Returns:
             Response: JSON serialized list of truck_location instances
         """
-        locations=TruckLocation.objects.all()
+        neighborhood_id = self.request.query_params.get('neighborhoodId', None)
+        day_id = self.request.query_params.get('dayId', None)
+        if neighborhood_id is not None and day_id is not None:
+            locations = TruckLocation.objects.filter(
+                Q(neighborhood_id = neighborhood_id) &
+                Q(day_id=day_id)
+            )
+        elif day_id is not None:
+            locations = TruckLocation.objects.filter(
+                Q(day_id=day_id)
+            )
+        
+        else:
+            locations=TruckLocation.objects.all()
 
         serializer=TruckLocationSerializer(locations, many=True)
         return Response(serializer.data)

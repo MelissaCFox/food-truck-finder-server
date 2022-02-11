@@ -29,6 +29,10 @@ class UserAccountView(ViewSet):
         """
         try:
             user_account=UserAccount.objects.get(pk=pk)
+            
+            for truck in user_account.user_favorites.all():
+                truck.favorite = user_account in truck.favorites.all()
+            
             serializer = UserAccountSerializer(user_account)
             return Response(serializer.data)
         except UserAccount.DoesNotExist as ex:
@@ -36,7 +40,7 @@ class UserAccountView(ViewSet):
 
 
 class UserAccountSerializer(serializers.ModelSerializer):
-    favorites = UserTruckFavoriteSerializer(many=True)
+    # favorites = UserTruckFavoriteSerializer(many=True)
 
     class Meta:
         model = UserAccount

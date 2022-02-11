@@ -16,15 +16,29 @@ class UserTruckFavoriteView(ViewSet):
             Response: JSON serialized list of user_truck_favorite instances
             specific to currently logged in user
         """
-        user_account = UserAccount.objects.get(pk=request.auth.user.id)
-        favorites=UserTruckFavorite.objects.filter(
-            Q(user_account=user_account)
-        )
-        
-
-        serializer=UserTruckFavoriteSerializer(favorites, many=True)
-        return Response(serializer.data)
-
+        truck_id = self.request.query_params.get('truckId', None)
+        if truck_id is not None:
+            try:
+                truck = Truck.objects.get(pk=truck_id)
+                user_account = UserAccount.objects.get(pk=request.auth.user.id)
+                favorite=UserTruckFavorite.objects.get(
+                    user_account=user_account
+                    , truck=truck
+                    )
+                serializer=UserTruckFavoriteSerializer(favorite)
+                return Response(serializer.data)
+            except UserTruckFavorite.DoesNotExist as ex:
+                return Response({'message': ex.args[0]}, status=status.HTTP_404_NOT_FOUND)
+        else:
+            try:
+                user_account = UserAccount.objects.get(pk=request.auth.user.id)
+                favorites=UserTruckFavorite.objects.filter(
+                    Q(user_account=user_account)
+                )
+                serializer=UserTruckFavoriteSerializer(favorites, many=True)
+                return Response(serializer.data)
+            except UserTruckFavorite.DoesNotExist as ex:
+                return Response({'message': ex.args[0]}, status=status.HTTP_404_NOT_FOUND)
 
     def retrieve(self, request, pk=None):
         """Handle GET request for a single user_truck_favorite
@@ -50,7 +64,7 @@ class UserTruckFavoriteView(ViewSet):
         user_truck_favorite = UserTruckFavorite()
 
         user_truck_favorite.user_account = UserAccount.objects.pk(pk=request.author.user.id)
-        user_truck_favorite.truck = Truck.objects.get(pk = request.data['truck'])
+        user_truck_favorite.truck = Truck.objects.get(pk = request.data['truckId'])
         
         try:
             user_truck_favorite.save()

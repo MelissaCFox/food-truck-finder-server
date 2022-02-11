@@ -3,6 +3,7 @@ from django.core.exceptions import ValidationError
 from rest_framework.viewsets import ViewSet
 from rest_framework.response import Response
 from rest_framework import serializers, status
+from django.db.models import Q
 from foodtruckfinderapi.models import UserTruckReview, Truck, UserAccount
 from foodtruckfinderapi.models.neighborhood import Neighborhood
 
@@ -15,7 +16,19 @@ class UserTruckReviewView(ViewSet):
         Returns:
             Response: JSON serialized list of review instances
         """
-        reviews=UserTruckReview.objects.all()
+        ## check for query params
+        truck_id = self.request.query_params.get('truckId', None)
+        if truck_id is not None:
+            reviews = UserTruckReview.objects.filter(
+                Q(truck_id=truck_id)
+            ).order_by('-date')
+        
+        else:
+            reviews=UserTruckReview.objects.all()
+
+        user_account = UserAccount.objects.get(pk = request.auth.user.id)
+        for review in reviews:
+            review.author = review.user_account == user_account
 
         serializer=UserTruckReviewSerializer(reviews, many=True)
         return Response(serializer.data)
@@ -29,6 +42,10 @@ class UserTruckReviewView(ViewSet):
         """
         try:
             review=UserTruckReview.objects.get(pk=pk)
+
+            user_account = UserAccount.objects.get(pk = request.auth.user.id)
+            review.author = review.user_account == user_account
+
             serializer = UserTruckReviewSerializer(review)
             return Response(serializer.data)
         except UserTruckReview.DoesNotExist as ex:
@@ -104,5 +121,5 @@ class UserTruckReviewSerializer(serializers.ModelSerializer):
     class Meta:
         model = UserTruckReview
         fields = ('id', 'review', 'date','rating', 'anonymous', 'truck',
-                  'user_account')
+                  'user_account', 'author')
         depth = 2

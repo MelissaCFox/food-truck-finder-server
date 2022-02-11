@@ -71,4 +71,4 @@ class Truck(models.Model):
             rounded_average = round(average_rating, 1)
             return rounded_average
         else:
-            return "No ratings yet"
+            return 0
