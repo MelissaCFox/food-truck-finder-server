@@ -20,18 +20,18 @@ class TruckLocationView(ViewSet):
         """
         neighborhood_id = self.request.query_params.get('neighborhoodId', None)
         day_id = self.request.query_params.get('dayId', None)
-        if neighborhood_id is not None and day_id is not None:
-            locations = TruckLocation.objects.filter(
-                Q(neighborhood_id = neighborhood_id) &
-                Q(day_id=day_id)
-            )
-        elif day_id is not None:
-            locations = TruckLocation.objects.filter(
-                Q(day_id=day_id)
-            )
-        
-        else:
-            locations=TruckLocation.objects.all()
+        truck_id = self.request.query_params.get('truckId', None)
+
+        filter_params = Q()
+        if neighborhood_id:
+            filter_params &= Q(neighborhood_id = neighborhood_id)
+        if day_id:
+            filter_params &= Q(day_id = day_id)
+        if truck_id:
+            filter_params &= Q(truck_id = truck_id)
+
+        locations = TruckLocation.objects.filter(filter_params)
+
 
         serializer=TruckLocationSerializer(locations, many=True)
         return Response(serializer.data)

@@ -22,6 +22,11 @@ class TruckView(ViewSet):
             truck.owner = user_account in truck.owners.all()
             truck.favorite = user_account in truck.favorites.all()
 
+## Attempting to set/access author property on related reviews for each truck instance
+            # if len(truck.reviews.all()) > 0:
+            #     for review in truck.reviews.all():
+            #         review.author = review.user_account == user_account
+
         serializer=TruckSerializer(trucks, many=True)
         return Response(serializer.data)
 
@@ -39,8 +44,10 @@ class TruckView(ViewSet):
             truck.owner = user_account in truck.owners.all()
             truck.favorite = user_account in truck.favorites.all()
 
-            for review in truck.reviews.all():
-                review.author = review.user_account == user_account
+## Attempting to set/access author property on related reviews on truck instance
+            # if len(truck.reviews) > 0:
+            #     for review in truck.reviews.all():
+            #         review.author = review.user_account == user_account
 
             serializer = TruckSerializer(truck)
             return Response(serializer.data)
