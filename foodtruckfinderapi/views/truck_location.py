@@ -108,4 +108,5 @@ class TruckLocationSerializer(serializers.ModelSerializer):
     class Meta:
         model = TruckLocation
         fields = ('id', 'truck','neighborhood', 'day')
+        depth = 1
 
