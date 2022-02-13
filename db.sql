@@ -1,6 +1,6 @@
-UPDATE foodtruckfinderapi_neighborhood
-set name = "Germantown"
-where id = 5
+update foodtruckfinderapi_trucklocation
+set neighborhood_id = 4
+where id = 14
 
 
 

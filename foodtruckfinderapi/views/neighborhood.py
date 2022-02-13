@@ -37,5 +37,5 @@ class NeighborhoodSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Neighborhood
-        fields = ('id', 'name', 'description', 'profile_img_src', 'linkNG')
+        fields = ('id', 'name', 'description', 'profile_img_src', 'linkNG', 'days_with_trucks')
         depth = 1
