@@ -2,6 +2,7 @@ from django.core.exceptions import ValidationError
 from rest_framework.viewsets import ViewSet
 from rest_framework.response import Response
 from rest_framework import serializers, status
+from django.db.models import Q
 from foodtruckfinderapi.models import (Truck, UserAccount)
 from foodtruckfinderapi.views.user_truck_review import UserTruckReviewSerializer
 
@@ -15,7 +16,16 @@ class TruckView(ViewSet):
         Returns:
             Response: JSON serialized list of truck instances
         """
-        trucks=Truck.objects.all()
+
+        search_text = self.request.query_params.get('q', None)
+        if search_text is not None:
+            trucks=Truck.objects.filter(
+                Q(name__contains=search_text) |
+                Q(description__contains=search_text) |
+                Q(food_types__type__contains=search_text)
+            ).distinct()
+        else :
+            trucks=Truck.objects.all()
         user_account = UserAccount.objects.get(pk = request.auth.user.id)
         ## set custom favorite and owner properties (booleans)
         for truck in trucks:

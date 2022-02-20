@@ -83,7 +83,7 @@ set profile_img_src = "trucks/SingleTree.png"
 where id = 24;
 
 update foodtruckfinderapi_truck
-set profile_img_src = "trucks/GrissomsPaninih.png"
+set profile_img_src = "trucks/GrissomsPanini.png"
 where id = 25;
 
 update foodtruckfinderapi_truck

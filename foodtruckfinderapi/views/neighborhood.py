@@ -2,6 +2,7 @@
 from rest_framework.viewsets import ViewSet
 from rest_framework.response import Response
 from rest_framework import serializers, status
+from django.db.models import Q
 from foodtruckfinderapi.models import Neighborhood
 
 
@@ -13,7 +14,14 @@ class NeighborhoodView(ViewSet):
         Returns:
             Response: JSON serialized list of neighborhood instances
         """
-        neighborhoods=Neighborhood.objects.all()
+        search_text = self.request.query_params.get('q', None)
+        if search_text is not None:
+            neighborhoods=Neighborhood.objects.filter(
+                Q(name__contains=search_text) |
+                Q(description__contains=search_text)
+            ).distinct()
+        else:
+            neighborhoods=Neighborhood.objects.all()
         
         serializer=NeighborhoodSerializer(neighborhoods, many=True)
         return Response(serializer.data)

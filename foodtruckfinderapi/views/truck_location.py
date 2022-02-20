@@ -22,6 +22,9 @@ class TruckLocationView(ViewSet):
         neighborhood_id = self.request.query_params.get('neighborhoodId', None)
         day_id = self.request.query_params.get('dayId', None)
         truck_id = self.request.query_params.get('truckId', None)
+        type_id = self.request.query_params.get('typeId', None)
+        order_by = self.request.query_params.get('orderBy', 'name')
+        desc = self.request.query_params.get('desc', '')
 
         filter_params = Q()
         if neighborhood_id:
@@ -30,8 +33,14 @@ class TruckLocationView(ViewSet):
             filter_params &= Q(day_id = day_id)
         if truck_id:
             filter_params &= Q(truck_id = truck_id)
+        if type_id:
+            filter_params &=Q(truck__food_types__id = type_id)
+        if desc:
+            desc = '-'
+        if order_by == 'user_rating':
+            order_by = 'name'
 
-        locations = TruckLocation.objects.filter(filter_params)
+        locations = TruckLocation.objects.filter(filter_params).order_by(f'{desc}truck__{order_by}')
 
 
         serializer=TruckLocationSerializer(locations, many=True)
