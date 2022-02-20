@@ -8,6 +8,7 @@ from foodtruckfinderapi.models import TruckLocation
 from foodtruckfinderapi.models.day import Day
 from foodtruckfinderapi.models.neighborhood import Neighborhood
 from foodtruckfinderapi.models.truck import Truck
+from foodtruckfinderapi.views.truck import TruckSerializer
 
 
 class TruckLocationView(ViewSet):
@@ -104,6 +105,7 @@ class TruckLocationView(ViewSet):
 
 
 class TruckLocationSerializer(serializers.ModelSerializer):
+    truck = TruckSerializer()
 
     class Meta:
         model = TruckLocation
