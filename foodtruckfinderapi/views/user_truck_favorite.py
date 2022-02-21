@@ -63,7 +63,7 @@ class UserTruckFavoriteView(ViewSet):
         """
         user_truck_favorite = UserTruckFavorite()
 
-        user_truck_favorite.user_account = UserAccount.objects.pk(pk=request.author.user.id)
+        user_truck_favorite.user_account = UserAccount.objects.get(pk=request.auth.user.id)
         user_truck_favorite.truck = Truck.objects.get(pk = request.data['truckId'])
         
         try:

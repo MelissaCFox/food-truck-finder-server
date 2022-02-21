@@ -18,12 +18,15 @@ class TruckView(ViewSet):
         """
 
         search_text = self.request.query_params.get('q', None)
+        owner = self.request.query_params.get('owner', None)
         if search_text is not None:
             trucks=Truck.objects.filter(
                 Q(name__contains=search_text) |
                 Q(description__contains=search_text) |
                 Q(food_types__type__contains=search_text)
             ).distinct()
+        elif owner:
+            trucks=Truck.objects.filter(Q(owners__id=request.auth.user.id)).order_by('-pk')
         else :
             trucks=Truck.objects.all()
         user_account = UserAccount.objects.get(pk = request.auth.user.id)
@@ -145,5 +148,6 @@ class TruckSerializer(serializers.ModelSerializer):
         model = Truck
         fields = ('id', 'name','description', 'website_url', 'facebook_url', 'instagram_url',
                   'twitter_url', 'profile_img_src', 'hours', 'dollars',
-                  'food_types', 'favorite', 'owner', 'user_rating', 'suggestions', 'reviews')
+                  'food_types', 'favorite', 'owner', 'user_rating', 'suggestions', 'reviews',
+                  'unread_suggestions')
         depth = 3

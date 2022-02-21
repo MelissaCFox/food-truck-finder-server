@@ -68,9 +68,9 @@ class TruckLocationView(ViewSet):
             Response: JSON serialized truck_location instance
         """
         truck_location = TruckLocation()
-        truck_location.neighborhood = Neighborhood.objects.get(pk=request.data['neighborhood'])
-        truck_location.day = Day.objects.get(pk=request.data['day'])
-        truck_location.truck = Truck.objects.get(pk = request.data['truck'])
+        truck_location.neighborhood = Neighborhood.objects.get(pk=request.data['neighborhoodId'])
+        truck_location.day = Day.objects.get(pk=request.data['dayId'])
+        truck_location.truck = Truck.objects.get(pk = request.data['truckId'])
         
         try:
             truck_location.save()
@@ -88,7 +88,7 @@ class TruckLocationView(ViewSet):
         """
         try:
             truck_location = TruckLocation.objects.get(pk=pk)
-            truck_location.neighborhood = Neighborhood.objects.get(pk=request.data['neighborhood'])
+            truck_location.neighborhood = Neighborhood.objects.get(pk=request.data['neighborhoodId'])
 
             truck_location.save()
             serializer = TruckLocationSerializer(truck_location)

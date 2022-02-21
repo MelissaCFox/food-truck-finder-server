@@ -1,4 +1,5 @@
 from django.db import models
+from foodtruckfinderapi.models.user_suggestion import UserSuggestion
 
 from foodtruckfinderapi.models.user_truck_review import UserTruckReview
 
@@ -73,3 +74,21 @@ class Truck(models.Model):
             return rounded_average
         else:
             return 0
+
+    @property
+    def unread_suggestions(self):
+        """calculates number of unread suggestions
+
+        Returns:
+            an integer
+        """
+        suggestions = UserSuggestion.objects.filter(truck=self)
+
+        unread = 0
+        if len(suggestions) > 0:
+            for suggestion in suggestions:
+                if suggestion.read is False:
+                    unread += 1
+
+        return unread
+

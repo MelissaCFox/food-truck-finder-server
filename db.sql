@@ -169,3 +169,11 @@ where id = 45;
 update foodtruckfinderapi_truck
 set profile_img_src = "trucks/WawaExpresso.png"
 where id = 46;
+
+update foodtruckfinderapi_truckowner
+set user_account_id = 1
+where truck_id = 3
+
+update foodtruckfinderapi_useraccount
+set owner = 1
+where id = 1
