@@ -43,8 +43,8 @@ class TruckFoodTypeView(ViewSet):
             Response: JSON serialized truck_food_type instance
         """
         truck_food_type = TruckFoodType()
-        type = FoodType.objects.get(pk=request.data['type'])
-        truck = Truck.objects.get(pk = request.data['truck'])
+        type = FoodType.objects.get(pk=request.data['foodTypeId'])
+        truck = Truck.objects.get(pk = request.data['truckId'])
         truck_food_type.type = type
         truck_food_type.truck = truck
         

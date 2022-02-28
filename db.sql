@@ -177,3 +177,15 @@ where truck_id = 3
 update foodtruckfinderapi_useraccount
 set owner = 1
 where id = 1
+
+delete from foodtruckfinderapi_truckfoodtype
+where id = 103;
+
+delete from foodtruckfinderapi_truckfoodtype
+where id = 104;
+
+delete from foodtruckfinderapi_truckfoodtype
+where id = 105;
+
+delete from foodtruckfinderapi_truckfoodtype
+where id = 106;

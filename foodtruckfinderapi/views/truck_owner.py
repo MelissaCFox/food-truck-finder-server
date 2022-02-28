@@ -41,8 +41,8 @@ class TruckOwnerView(ViewSet):
         """
         truck_owner = TruckOwner()
 
-        truck_owner.user_account = UserAccount.objects.pk(pk=request.author.user.id)
-        truck_owner.truck = Truck.objects.get(pk = request.data['truck'])
+        truck_owner.user_account = UserAccount.objects.get(user_id=request.auth.user.id)
+        truck_owner.truck = Truck.objects.get(pk=request.data['truckId'])
 
         try:
             truck_owner.save()

@@ -1,4 +1,7 @@
 from django.core.exceptions import ValidationError
+import base64
+import uuid
+from django.core.files.base import ContentFile
 from rest_framework.viewsets import ViewSet
 from rest_framework.response import Response
 from rest_framework import serializers, status
@@ -86,10 +89,17 @@ class TruckView(ViewSet):
             dollars = request.data['dollars'],
         )
 
+        format, imgstr = request.data["profileImgSrc"].split(';base64,')
+        ext = format.split('/')[-1]
+        data = ContentFile(base64.b64decode(imgstr), 
+                           name=f'{request.data["name"]}-{uuid.uuid4()}.{ext}')
+
+        truck.profile_img_src = data
+
 
         try:
             truck.save()
-            truck.food_types.set(request.data['foodTypes'])
+            # truck.food_types.set(request.data['foodTypes'])
             serializer = TruckSerializer(truck, context={'request': request})
             return Response(serializer.data, status=status.HTTP_201_CREATED)
         except ValidationError as ex:
@@ -110,14 +120,20 @@ class TruckView(ViewSet):
             truck.facebook_url = request.data['facebookURL']
             truck.instagram_url = request.data['instagramURL']
             truck.twitter_url = request.data['twitterURL']
-            truck.profile_img_src = request.data['profileImgSrc']
             truck.hours = request.data['hours']
             truck.dollars = request.data['dollars']
 
+            if request.data['newPhoto']:
+                format, imgstr = request.data["profileImgSrc"].split(';base64,')
+                ext = format.split('/')[-1]
+                data = ContentFile(base64.b64decode(imgstr), 
+                                name=f'{request.data["name"]}-{uuid.uuid4()}.{ext}')
+                truck.profile_img_src = data
+
             truck.save()
-            
-            truck.food_types.set(request.data['foodTypes'])
-            
+
+            # truck.food_types.set(request.data['foodTypes'])
+
             serializer = TruckSerializer(truck)
             return Response(serializer.data, status=status.HTTP_204_NO_CONTENT)
         except Truck.DoesNotExist as ex:
@@ -125,7 +141,7 @@ class TruckView(ViewSet):
         except ValidationError as ex:
             return Response({'message': ex.args[0]}, status=status.HTTP_400_BAD_REQUEST)
 
-    
+
     def destroy(self, request, pk=None):
         """Handle DELETE request for a single truck
 

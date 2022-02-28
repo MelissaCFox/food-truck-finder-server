@@ -13,7 +13,7 @@ class FoodTypeView(ViewSet):
         Returns:
             Response: JSON serialized list of food_type instances
         """
-        food_types=FoodType.objects.all()
+        food_types=FoodType.objects.order_by('type')
 
         serializer=FoodTypeSerializer(food_types, many=True)
         return Response(serializer.data)
