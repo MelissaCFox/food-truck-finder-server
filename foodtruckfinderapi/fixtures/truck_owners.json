@@ -342,13 +342,5 @@
             "user_account": 6,
             "truck": 46
         }
-    },
-    {
-        "model": "foodtruckfinderapi.truckowner",
-        "pk": 47,
-        "fields": {
-            "user_account": 12,
-            "truck": 47
-        }
     }
 ]

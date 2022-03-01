@@ -574,29 +574,5 @@
             "truck": 13,
             "type": 7
         }
-    },
-    {
-        "model": "foodtruckfinderapi.truckfoodtype",
-        "pk": 85,
-        "fields": {
-            "truck": 47,
-            "type": 5
-        }
-    },
-    {
-        "model": "foodtruckfinderapi.truckfoodtype",
-        "pk": 86,
-        "fields": {
-            "truck": 47,
-            "type": 3
-        }
-    },
-    {
-        "model": "foodtruckfinderapi.truckfoodtype",
-        "pk": 87,
-        "fields": {
-            "truck": 47,
-            "type": 16
-        }
     }
 ]

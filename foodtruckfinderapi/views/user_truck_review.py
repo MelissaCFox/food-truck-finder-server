@@ -3,12 +3,15 @@ from django.core.exceptions import ValidationError
 from rest_framework.viewsets import ViewSet
 from rest_framework.response import Response
 from rest_framework import serializers, status
+from rest_framework.permissions import DjangoModelPermissions
 from django.db.models import Q
 from foodtruckfinderapi.models import UserTruckReview, Truck, UserAccount
-from foodtruckfinderapi.models.neighborhood import Neighborhood
 
 
 class UserTruckReviewView(ViewSet):
+
+    permission_classes = [ DjangoModelPermissions ]
+    queryset = UserTruckReview.objects.none()
 
     def list(self, request):
         """Handle GET requests to reviews resource

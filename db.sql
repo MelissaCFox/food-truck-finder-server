@@ -189,3 +189,8 @@ where id = 105;
 
 delete from foodtruckfinderapi_truckfoodtype
 where id = 106;
+
+
+select * from foodtruckfinderapi_useraccount 
+join auth_user on auth_user.id = foodtruckfinderapi_useraccount.user_id
+where owner = 1
