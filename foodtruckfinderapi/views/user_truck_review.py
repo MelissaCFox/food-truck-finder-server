@@ -25,7 +25,7 @@ class UserTruckReviewView(ViewSet):
             reviews = UserTruckReview.objects.filter(
                 Q(truck_id=truck_id)
             ).order_by('-date')
-        
+
         else:
             reviews=UserTruckReview.objects.all()
 
